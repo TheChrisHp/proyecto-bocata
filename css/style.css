@@ -6,15 +6,14 @@
 
 /* BARRA DE NAVEGACION */
 .navbar {
-  background-color: #b90000 !important;
-  /* border: solid 2px; */ }
+  background-color: #e30000 !important;
+  border-style: none; }
 
 .cont-img-logo-nav {
   display: flex;
   align-items: center;
-  /* border: solid 2px; */
-  height: 80px;
-  margin-left: 20px; }
+  height: 60px;
+  margin-left: 6rem; }
 
 .logo-bocata {
   width: 100px; }
@@ -32,91 +31,42 @@
   margin-right: 32px; }
 
 main {
-  overflow: hidden; }
-
-.img-bocata {
-  width: 100px;
-  height: auto; }
-
-.section {
-  margin: 0 auto;
-  padding: 5rem 0 2rem; }
-
-.container {
-  max-width: 75rem;
-  height: auto;
-  margin: 0 auto;
-  padding: 0 1.25rem; }
-
-.frase {
-  font-family: inherit;
-  text-wrap: balance;
-  color: inherit; }
-
-.titulo-xl {
-  font-family: inherit;
-  font-size: clamp(2.648rem, 6vw, 4.241rem);
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -1px; }
-
-.titulo-lg {
-  font-family: inherit;
-  font-size: clamp(2.179rem, 5vw, 3.176rem);
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -1px; }
-
-.titulo-md {
-  font-family: inherit;
-  font-size: clamp(1.794rem, 4vw, 2.379rem);
-  font-weight: 700;
-  line-height: 1.25;
-  letter-spacing: -1px; }
-
-.boton {
-  display: "Poppins" sans-serif;
-  font-weight: 500;
-  font-family: inherit;
-  font-size: 1.3rem;
-  background-color: #202020;
-  color: #fff;
-  border-radius: 6px;
-  padding: 6px 13px;
-  border-style: none;
-  transition: 0.3s ease-in-out; }
-  .boton:hover {
-    background-color: #910000;
-    color: #fff; }
-
-.banner-column {
-  position: relative;
-  display: grid;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  border: solid 2px; }
-  @media only screen and (min-width: 48rem) {
-    .banner-column {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      justify-content: center; } }
-  @media only screen and (min-width: 64rem) {
-    .banner-column {
-      grid-template-columns: 1fr max-content; } }
+  flex-wrap: wrap-reverse; }
+  main h1 {
+    font-family: "Poppins" sans-serif;
+    font-weight: 700;
+    text-align: start;
+    font-size: 5.4rem; }
+  main img {
+    width: 490px;
+    height: 532px; }
 
-.banner-image {
-  display: block;
-  max-width: 25rem;
-  height: auto;
-  object-fit: cover;
-  justify-self: center; }
-  @media only screen and (min-width: 48rem) {
-    .banner-image {
-      order: 1;
-      max-width: 28rem;
-      height: auto; } }
-  @media only screen and (min-width: 64rem) {
-    .banner-image {
-      max-width: 33rem;
-      height: auto; } }
+.cont-texto {
+  margin-top: 20px;
+  margin-left: 120px;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 800px;
+  height: 600px; }
+  .cont-texto .boton {
+    font-family: "Poppins" sans-serif;
+    font-weight: 500;
+    width: 150px;
+    font-size: 1.3rem;
+    background-color: #202020;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 13px;
+    border-style: none;
+    transition: 0.3s ease-in-out; }
+    .cont-texto .boton:hover {
+      background-color: #910000;
+      color: #fff; }
 
 /* INICIO-CARROUSEL */
 .cont-cont-carrousel {

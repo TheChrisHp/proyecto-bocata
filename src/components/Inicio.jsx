@@ -1,30 +1,15 @@
-import { SassColor } from "sass";
+import { Link } from 'react-router-dom';
 
 const Inicio = () => {
   return (
     <>
-      <main class="main">
-        <section class="section banner banner-section">
-          <div class="container banner-column">
-            <img
-              class="banner-image"
-              src="https://cdn.discordapp.com/attachments/1228542950636781569/1232770813736783952/bocata-logo.png?ex=662aaac9&is=66295949&hm=75c68973bdae1b09d7f893b85fbce9dadad7adde04f9b2b9d6a9d58e51fa4b3a&"
-              alt="logo-bocata"
-            />
-            <div class="banner-inner">
-              <h1 class="titulo-xl">
-                Si elegís supermercado elegis <span style={{color:'red'}}>Bocata</span>
-              </h1>
-              <p class="frase">
-                Nos encontramos en bla bla bla Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. At amet ab praesentium suscipit
-                reprehenderit ipsam quos accusamus vel tenetur illo?
-              </p>
-              <button class="boton">
-                Ver Mailing</button>
-            </div>
-          </div>
+      <main>
+        <section className="cont-texto">
+        <h1>Si elegis Supermercado, elegís <span style={{color: "#D40000"}}>Bocata</span></h1>
+        <p>Nuestro compromiso es contigo.</p>
+        <button className="boton">Ver mailing</button>
         </section>
+        <img src="https://cdn.discordapp.com/attachments/1228542950636781569/1232770813736783952/bocata-logo.png?ex=662aaac9&is=66295949&hm=75c68973bdae1b09d7f893b85fbce9dadad7adde04f9b2b9d6a9d58e51fa4b3a&" alt="" />
       </main>
       <div className="cont-cont-carrousel">
         <div className="cont-carrousel">
