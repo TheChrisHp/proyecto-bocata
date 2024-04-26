@@ -2,43 +2,33 @@ import { Link } from 'react-router-dom';
 
 const Footer = () =>{
     return(
-        <>
+    <>
     <footer>
-    <div className="cont-footer">
-      {/* <!-- ITEMS FOOTER --> */}
-    <Link className="footer-item1" to="/Inicio">
-        <img className="logo-footer" src="./resources/bocata-logo.png" alt="bocata-footer" />
-    </Link>
+        <Link to="./Inicio">
+        <img src='../resources/bocata-logo.png' alt="logo-bocata-footer" />
+        </Link>
+        <div className='itemf-1'>
+        <a>
+        <img className='icon-footer' src="../resources/horario.png" alt="horario-icono-footer" />
+            Horarios
+        </a>
+            <ul>
+                <li>De 8:00 a 22:30 hs, todos los días de la semana. (Abierto domingos)</li>
+            </ul>
+        </div>
+        <div className='itemf-2'>
+            <a>
+            <img className='icon-footer' src="../resources/ubicacion.png" alt="ubicacion-icono-footer" />
+                Ubicacion
+            </a>
+            <ul>
+                <li>Av. 8 de octubre 4130, esq. Pascual Paladino.</li>
+                <li>Tel. 2509 7777</li>
+            </ul>
+        </div>
 
-      <div className="footer-item2">
-        <h1 className="h1-footer">Contacto</h1>
-        <a className="icon-foot-text">
-          <img className="icons-footer" src="" alt=""/>
-          WhatsApp
-        </a>
-        <a className="icon-foot-text">
-          <img className="icons-footer" src="" alt=""/>
-          2783-9472
-        </a>
-      </div>
-      <div className="footer-item3">
-        <h1 className="h1-footer">Redes Sociales</h1>
-        <a class='icon-foot-text'>
-          <img class="icons-footer" src="" alt=""/>
-          Facebook
-        </a>
-        <a className='icon-foot-text'>
-          <img className="icons-footer" src="" alt=""/>
-          Instagram
-        </a>
-      </div>
-      {/* <!-- FINAL FOOTER --> */}
-    </div>
-    <div class="copy-footer">
-      <br></br>
-      <p class="p-copy-footer">Bocata © 2023-2024. Todos los derechos reservados</p>
-    </div>
-  </footer>
+    </footer>
+
     </>
     )
 }

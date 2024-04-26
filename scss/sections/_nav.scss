@@ -1,0 +1,36 @@
+@import './variables';
+
+/* BARRA DE NAVEGACION */
+.navbar{
+    background-color: rgb(227, 0, 0) !important;
+    border-style: none;
+    box-shadow: $sombra;
+  }
+  
+  .cont-img-logo-nav{
+    display: flex;
+    align-items: center;
+    // border: solid 2px;
+    height: 64px;
+    margin-left: 6rem;
+  }
+  
+  .logo-bocata{
+    width: 110px;
+  }
+  
+  .navbar-brand{
+    margin-left: 40px;
+  }
+  
+  .nav-link{
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 32px;
+  }
+  
+  .navbar-expand-lg .navbar-collapse{
+    flex-direction: row-reverse;
+    margin-right: 5rem;
+  }

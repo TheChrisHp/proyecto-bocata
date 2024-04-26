@@ -7,34 +7,57 @@
 /* BARRA DE NAVEGACION */
 .navbar {
   background-color: #e30000 !important;
-  border-style: none; }
+  border-style: none;
+  box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.1), 0 2px 4px 2px rgba(0, 0, 0, 0.06); }
 
 .cont-img-logo-nav {
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 64px;
   margin-left: 6rem; }
 
 .logo-bocata {
-  width: 100px; }
+  width: 110px; }
 
 .navbar-brand {
   margin-left: 40px; }
 
 .nav-link {
+  font-weight: 500;
   font-size: 20px;
   color: #ffffff;
   margin-right: 32px; }
 
 .navbar-expand-lg .navbar-collapse {
   flex-direction: row-reverse;
-  margin-right: 32px; }
+  margin-right: 5rem; }
+
+/* INICIO-CARROUSEL 1 */
+.cont-cont-carrousel {
+  background-color: #bd0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; }
+
+.cont-carrousel {
+  width: 1600px;
+  height: auto; }
+
+.carousel-item {
+  width: 100%;
+  height: 650px; }
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover; }
 
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap-reverse; }
+  flex-wrap: wrap-reverse;
+  margin-top: -2%;
+  padding: 0; }
   main h1 {
     font-family: "Poppins" sans-serif;
     font-weight: 700;
@@ -51,104 +74,190 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 800px;
+  width: 860px;
   height: 600px; }
   .cont-texto .boton {
     font-family: "Poppins" sans-serif;
     font-weight: 500;
-    width: 150px;
-    font-size: 1.3rem;
+    width: 180px;
+    font-size: 1.5rem;
     background-color: #202020;
     color: #fff;
     border-radius: 6px;
-    padding: 6px 13px;
+    padding: 6px 8px;
     border-style: none;
     transition: 0.3s ease-in-out; }
     .cont-texto .boton:hover {
       background-color: #910000;
       color: #fff; }
 
-/* INICIO-CARROUSEL */
-.cont-cont-carrousel {
-  padding: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+.section-2 {
+  margin-bottom: 20px; }
+  .section-2 .img-bocata-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.563), rgba(0, 0, 0, 0.601)), url("https://cdn.discordapp.com/attachments/1228542950636781569/1232881116734820363/BANER-FONDO-HOME.jpg?ex=662b1184&is=6629c004&hm=9d51fbea8bdec887c84523dddb840c2912aad9c1d3ea86ce1313c06ab22fcab0&");
+    background-position: top;
+    background-attachment: fixed; }
+    .section-2 .img-bocata-p h1 {
+      color: white;
+      font-family: "Poppins" sans-serif;
+      font-weight: 700;
+      text-align: start;
+      font-size: 10rem; }
 
-.cont-carrousel {
-  width: 1000px;
-  height: auto; }
-
-/* ERROR 404 */
-.cont-404 {
+.cont-imbatibles {
+  position: relative;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  z-index: 1111;
+  overflow: hidden; }
+  .cont-imbatibles .svg-1 {
+    position: absolute;
+    width: 2000px;
+    right: 0;
+    bottom: -16rem; }
+  .cont-imbatibles .s-imbatibles {
+    display: flex;
+    justify-content: start;
+    width: 900px;
+    margin-left: 10rem;
+    z-index: 1111; }
+    .cont-imbatibles .s-imbatibles h1 {
+      font-family: "Poppins" sans-serif;
+      font-weight: 700;
+      text-align: start;
+      font-size: 5rem; }
+  .cont-imbatibles .img-promocion {
+    margin-left: 2rem;
+    width: 200px;
+    height: auto;
+    z-index: 1; }
+
+.cont-cont-carrousel2 {
+  position: relative;
+  display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  z-index: 1; }
+  .cont-cont-carrousel2 .svg-2 {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: -5rem;
+    z-index: -1; }
+  .cont-cont-carrousel2 .carousel-control-next-icon, .cont-cont-carrousel2 .carousel-control-prev-icon {
+    background-color: #ffffffa6;
+    border-radius: 20px; }
+  .cont-cont-carrousel2 .carousel-control-next-icon {
+    color: black;
+    background-color: black;
+    padding: 10px; }
+  .cont-cont-carrousel2 .carousel-control-prev-icon {
+    color: black;
+    background-color: black;
+    padding: 10px; }
+  .cont-cont-carrousel2 .carousel-item {
+    border: solid 2px;
+    width: 1000px;
+    height: auto;
+    transition: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 41px 6px 2px 4px rgba(0, 0, 0, 0.75);
+    z-index: 1; }
+    .cont-cont-carrousel2 .carousel-item img {
+      height: 100%;
+      object-fit: cover; }
 
-.cont-404 h1 {
-  font-size: 80px; }
+.cont-btn-carrou-2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: #f90000;
+  z-index: 99999; }
+  .cont-btn-carrou-2 button {
+    background-color: #ec0000;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: solid 2px #202020;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 6px 4px 2px 2px black; }
+  .cont-btn-carrou-2 button:active {
+    box-shadow: 2px 2px 2px 2px black; }
+
+.cont-section-ub {
+  position: relative;
+  z-index: -1;
+  border: solid 2px; }
+  .cont-section-ub .svg-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; }
 
 /* FOOTER */
 /* INICIO FOOTER */
-.cont-footer {
+footer {
   display: flex;
+  align-items: center;
   justify-content: space-around;
-  align-items: center;
-  background-color: #c1000a;
-  color: #fff;
-  padding: 40px 0;
-  text-align: center;
-  flex-wrap: wrap;
-  width: 100%;
-  overflow: hidden; }
-
-.footer-item2 {
-  display: flex;
-  flex-direction: column; }
-
-.h1-footer {
-  font-family: "League Spartan", sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  text-transform: uppercase;
-  margin-bottom: 10px; }
-
-.icon-foot-text {
-  font-family: "League Spartan", sans-serif;
-  font-size: 17px;
-  margin-top: 10px;
-  text-align: start;
-  text-decoration: none;
-  color: #fff; }
-
-.icons-footer {
-  width: 22px;
-  height: auto;
-  margin-right: 5px;
-  vertical-align: middle;
-  /*por lo visto centra el icono con el texto*/ }
-
-.footer-item3 {
-  /* border: solid 2px; */
-  display: flex;
-  flex-direction: column; }
-
-.logo-footer {
-  width: 200px;
-  height: auto; }
-
-.copy-footer {
-  background-color: #b70003;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 6px;
-  margin: 0; }
-
-.p-copy-footer {
-  color: #fff;
-  font-family: "League Spartan", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  margin: 0; }
+  background-color: #ab0000;
+  height: 200px; }
+  footer img {
+    width: 150px; }
+  footer .itemf-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    width: 220px; }
+    footer .itemf-1 a {
+      display: flex;
+      align-items: center;
+      color: #fff !important;
+      font-size: 20px;
+      text-align: center;
+      align-self: center; }
+    footer .itemf-1 .icon-footer {
+      width: 26px;
+      margin-right: 10px;
+      vertical-align: middle; }
+    footer .itemf-1 ul {
+      color: #fff;
+      list-style: none; }
+      footer .itemf-1 ul li {
+        font-size: 14px;
+        text-align: center;
+        color: #fff; }
+  footer .itemf-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    width: 220px; }
+    footer .itemf-2 a {
+      display: flex;
+      align-items: center;
+      color: #fff !important;
+      font-size: 20px;
+      text-align: center;
+      align-self: center; }
+    footer .itemf-2 .icon-footer {
+      width: 26px;
+      margin-right: 10px;
+      vertical-align: middle; }
+    footer .itemf-2 ul {
+      list-style: none;
+      text-align: center; }
+      footer .itemf-2 ul li {
+        font-size: 14px;
+        text-align: center;
+        color: #fff; }

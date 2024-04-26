@@ -1,0 +1,89 @@
+@import './variables';
+
+  /* FOOTER */
+  /* INICIO FOOTER */
+
+  @mixin items-f(){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    width: 220px;
+  }
+  
+  @mixin icon-footer(){
+      width: 26px;
+      margin-right: 10px;
+      vertical-align: middle;
+  }
+  
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ab0000;
+    height: 200px;
+  
+    img{
+      width: 150px;
+    }
+  
+    .itemf-1 {
+      @include items-f;
+  
+      a{
+        display: flex;
+        align-items: center;
+        color: $c_blanco !important;
+        font-size: 20px;
+        text-align: center;
+        align-self: center;
+        
+      }
+  
+      .icon-footer {
+        @include icon-footer;
+      }
+  
+      ul {
+        color: $c_blanco;
+        list-style: none;
+  
+        li {
+          font-size: 14px;
+          text-align: center;
+          color: $c_blanco;
+        }
+      }
+    }
+  
+  
+    .itemf-2{
+      @include items-f;
+  
+      a{
+        display: flex;
+        align-items: center;
+        color: $c_blanco !important;
+        font-size: 20px;
+        text-align: center;
+        align-self: center;
+      }
+  
+      .icon-footer{
+        @include icon-footer;
+      }
+  
+      ul{
+        list-style: none;
+        text-align: center;
+  
+        li {
+          font-size: 14px;
+          text-align: center;
+          color: $c_blanco;
+        }
+      }
+  
+    }
+  }
