@@ -16,7 +16,15 @@ const Nav = () => {
               <Link className="nav-link" aria-current="page" to="/Inicio">Inicio</Link>
               <Link className="nav-link" to="/mailing">Mailing</Link>
               <Link className="nav-link" to="/contacto">Contacto</Link>
-              {/* <Link className="nav-link disabled" to="#">Disabled</Link> */}
+              <li class="nav-item dropdown"/>
+                  <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </Link>
+              <ul className="dropdown-menu">
+                <li><Link className="dropdown-item" to="#">Action</Link></li>
+                <li><Link className="dropdown-item" to="#">Another action</Link></li>
+                <li><Link className="dropdown-item" to="#">Something else here</Link></li>
+              </ul>
             </div>
           </div>
         </div>

@@ -206,13 +206,24 @@ const Inicio = () => {
         <button to="https://google.com"> 🔥 ¡Ver todos los IMBATIBLES! 🔥</button>
         </Link>
       </div>
-      <svg className='svg-3' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-  <path fill="#f90000" fill-opacity="1" d="M0,64L80,69.3C160,75,320,85,480,90.7C640,96,800,96,960,96C1120,96,1280,96,1360,96L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
-</svg>
     
-
-        
-
+    <section className='cont-ubicados'>
+      <h1>¿Dónde nos <span style={{color:"white", backgroundColor:"red"}}>ENCONTRAMOS?</span></h1>
+    </section>
+    
+    <div className="ubicados">
+      <iframe style={{border:"solid 2px #000", borderRadius:"10px", boxShadow:"2px 2px 2px 0px #f90000"}} className='mapa-iframe-ubicacion' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.4474581258214!2d-56.137374423520285!3d-34.87010857161695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80c0441d1e2d%3A0x503c860aa30d8a2d!2sSupermercado%20Bocata!5e0!3m2!1ses-419!2suy!4v1714187476144!5m2!1ses-419!2suy" width="650" height="500" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div className='ubicados-aside'>
+        <h1>Estamos ubicados en 8 de Octubre 4130
+          esq. Pascual Paladino.
+        </h1>
+        <img className='draw-1' src="./resources/draw-1.svg" alt="draw-1-ubicacion" />
+        <h1 className='h1-esperamos'>¡Te esperamos!, no olvides consultar nuestro <span style={{background:"red", color:"white"}}>MAILING</span></h1>
+        <Link>
+          <button className='btn-mailing'>Ver Mailing</button>
+        </Link>
+      </div>
+    </div>
 
 
     </>

@@ -14,6 +14,25 @@
     height: 64px;
     margin-left: 6rem;
   }
+
+  .dropdown-menu[data-bs-popper]{
+    background-color: #b50101;
+    left: auto;
+    right: 6rem;
+
+    .dropdown-item{
+      text-align: center;
+      color: $c_blanco;
+    }
+
+    .dropdown-item:hover{
+      background-color: #8b0000;
+    }
+  }
+
+  .navbar-nav{
+    text-align: center;
+  }
   
   .logo-bocata{
     width: 110px;

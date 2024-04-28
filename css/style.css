@@ -16,6 +16,19 @@
   height: 64px;
   margin-left: 6rem; }
 
+.dropdown-menu[data-bs-popper] {
+  background-color: #b50101;
+  left: auto;
+  right: 6rem; }
+  .dropdown-menu[data-bs-popper] .dropdown-item {
+    text-align: center;
+    color: #fff; }
+  .dropdown-menu[data-bs-popper] .dropdown-item:hover {
+    background-color: #8b0000; }
+
+.navbar-nav {
+  text-align: center; }
+
 .logo-bocata {
   width: 110px; }
 
@@ -193,15 +206,61 @@ main {
   .cont-btn-carrou-2 button:active {
     box-shadow: 2px 2px 2px 2px black; }
 
-.cont-section-ub {
-  position: relative;
-  z-index: -1;
-  border: solid 2px; }
-  .cont-section-ub .svg-3 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1; }
+.cont-ubicados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.563), rgba(0, 0, 0, 0.601)), url("https://images.unsplash.com/photo-1578916171728-46686eac8d58?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-attachment: fixed;
+  height: 200px; }
+  .cont-ubicados h1 {
+    color: #fff;
+    font-size: 6.2rem;
+    font-weight: 700; }
+
+.ubicados {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  flex-wrap: wrap; }
+  .ubicados .mapa-iframe-ubicacion {
+    border-radius: 10px;
+    border: solid 2px #000; }
+  .ubicados .ubicados-aside {
+    display: flex;
+    align-self: start;
+    justify-self: start;
+    flex-direction: column;
+    text-align: center;
+    width: 600px; }
+    .ubicados .ubicados-aside .draw-1 {
+      position: relative;
+      left: 4rem;
+      margin-top: 20px;
+      width: 600px;
+      height: auto; }
+    .ubicados .ubicados-aside h1 {
+      font-weight: 600;
+      font-size: 32px; }
+    .ubicados .ubicados-aside .h1-esperamos {
+      margin-top: 10px;
+      font-weight: 700;
+      font-size: 2.2rem; }
+    .ubicados .ubicados-aside .btn-mailing {
+      margin-bottom: 10px;
+      background-color: #ec0000;
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 600;
+      border: solid 2px #202020;
+      border-radius: 10px;
+      padding: 10px;
+      width: 190px;
+      box-shadow: 6px 4px 2px 2px black; }
+    .ubicados .ubicados-aside .btn-mailing:active {
+      box-shadow: 2px 2px 1px 1px black; }
 
 /* FOOTER */
 /* INICIO FOOTER */
@@ -261,3 +320,55 @@ footer {
         font-size: 14px;
         text-align: center;
         color: #fff; }
+
+.as-contacto {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly; }
+  .as-contacto svg {
+    position: absolute;
+    z-index: -1;
+    bottom: -3.6rem; }
+  .as-contacto .t-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .as-contacto .t-contacto h1 {
+      font-size: 4.4rem;
+      font-weight: 700; }
+  .as-contacto img {
+    width: 700px;
+    height: 650px; }
+  .as-contacto .cont-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    width: 600px;
+    height: 700px; }
+    .as-contacto .cont-form form input {
+      padding: 10px; }
+    .as-contacto .cont-form form p {
+      position: relative;
+      font-size: 20px;
+      font-weight: 600;
+      top: 32px; }
+    .as-contacto .cont-form form form input, .as-contacto .cont-form form textarea {
+      resize: none;
+      padding: 5px; }
+    .as-contacto .cont-form form .boton-enviar {
+      font-size: 20px;
+      font-weight: 600;
+      align-self: center;
+      width: 220px;
+      box-shadow: 4px 4px 2px #000;
+      border-radius: 10px;
+      transition: 0.1s ease-in-out; }
+    .as-contacto .cont-form form .boton-enviar:hover {
+      color: #fff;
+      border-radius: 10px;
+      background-color: red;
+      border: solid 2px #00000062; }
+    .as-contacto .cont-form form .boton-enviar:active {
+      box-shadow: 1px 1px 2px #000; }

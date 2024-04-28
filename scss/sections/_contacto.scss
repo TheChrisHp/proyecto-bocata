@@ -1,0 +1,78 @@
+.as-contacto{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+
+    svg{
+        position: absolute;
+        z-index: -1;
+        bottom: -3.6rem;
+    }
+
+    .t-contacto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1{
+            font-size: 4.4rem;
+            font-weight: 700;
+        }
+    }
+
+    img{
+        width: 700px;
+        height: 650px;
+    }
+
+    .cont-form{
+        // border: solid 2px;
+
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 10px;
+            width: 600px;
+            height: 700px;
+
+            input{
+                padding: 10px;
+            }
+
+            p{
+                position: relative;
+                font-size: 20px;
+                font-weight: 600;
+                top: 32px;
+            }
+
+            form input, textarea{
+                resize: none;
+                padding: 5px;
+            }
+
+            .boton-enviar {
+                font-size: 20px;
+                font-weight: 600;
+                align-self: center;
+                width: 220px;
+                box-shadow: 4px 4px 2px #000;
+                border-radius: 10px;
+                transition: 0.1s ease-in-out;
+            }
+
+            .boton-enviar:hover{
+                color: $c_blanco;
+                border-radius: 10px;
+                background-color: red;
+                border: solid 2px #00000062;
+            }
+
+            .boton-enviar:active{
+                box-shadow: 1px 1px 2px #000;
+            }
+        }
+    }
+}
