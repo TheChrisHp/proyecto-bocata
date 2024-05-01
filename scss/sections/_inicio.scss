@@ -56,6 +56,13 @@ padding: 0;
   width: 860px;
   height: 600px;
 
+  svg{
+    position: absolute;
+    right: 0;
+    bottom: -42rem;
+    z-index: -1;
+  }
+
   .boton {
     font-family: "Poppins" sans-serif;
     font-weight: 500;

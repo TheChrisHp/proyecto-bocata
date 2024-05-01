@@ -1,0 +1,80 @@
+.as-postulate{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+
+    svg{
+        position: absolute;
+        z-index: -1;
+        bottom: -7.2rem;
+    }
+
+    .t-postulate{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1{
+            font-size: 4.4rem;
+            font-weight: 700;
+        }
+    }
+
+    img{
+        width: 800px;
+        height: 650px;
+    }
+
+    .cont-form2{
+        margin-left: 60px;
+
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 12px;
+            width: 600px;
+            height: 800px;
+
+            input{
+                padding: 8px;
+            }
+
+            p{
+                position: relative;
+                font-size: 20px;
+                font-weight: 600;
+                top: 12px;
+            }
+
+            form input, textarea{
+                resize: none;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+
+            .boton-enviar {
+                font-size: 20px;
+                font-weight: 600;
+                align-self: center;
+                width: 220px;
+                box-shadow: 4px 4px 2px #000;
+                border-radius: 10px;
+                transition: 0.1s ease-in-out;
+            }
+
+            .boton-enviar:hover{
+                color: $c_blanco;
+                border-radius: 10px;
+                background-color: red;
+                border: solid 2px #00000062;
+            }
+
+            .boton-enviar:active{
+                box-shadow: 1px 1px 2px #000;
+            }
+        }
+    }
+}

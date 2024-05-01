@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Nav = () => {
   return (
@@ -18,11 +18,11 @@ const Nav = () => {
               <Link className="nav-link" to="/contacto">Contacto</Link>
               <li class="nav-item dropdown"/>
                   <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
+                    Más
                   </Link>
               <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" to="#">Action</Link></li>
-                <li><Link className="dropdown-item" to="#">Another action</Link></li>
+                <li><Link className="dropdown-item" to="./Postulate">Postulate</Link></li>
+                <li><Link className="dropdown-item" to="./Inicio#mapa-ubicacion">Ubicación</Link></li>
                 <li><Link className="dropdown-item" to="#">Something else here</Link></li>
               </ul>
             </div>

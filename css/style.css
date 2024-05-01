@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box; }
 
 /* BARRA DE NAVEGACION */
 .navbar {
@@ -19,7 +20,7 @@
 .dropdown-menu[data-bs-popper] {
   background-color: #b50101;
   left: auto;
-  right: 6rem; }
+  right: 4rem; }
   .dropdown-menu[data-bs-popper] .dropdown-item {
     text-align: center;
     color: #fff; }
@@ -89,6 +90,11 @@ main {
   flex-direction: column;
   width: 860px;
   height: 600px; }
+  .cont-texto svg {
+    position: absolute;
+    right: 0;
+    bottom: -42rem;
+    z-index: -1; }
   .cont-texto .boton {
     font-family: "Poppins" sans-serif;
     font-weight: 500;
@@ -262,12 +268,10 @@ main {
     .ubicados .ubicados-aside .btn-mailing:active {
       box-shadow: 2px 2px 1px 1px black; }
 
-/* FOOTER */
-/* INICIO FOOTER */
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #ab0000;
   height: 200px; }
   footer img {
@@ -316,10 +320,65 @@ footer {
     footer .itemf-2 ul {
       list-style: none;
       text-align: center; }
+      footer .itemf-2 ul a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        margin-right: 20px; }
+      footer .itemf-2 ul img {
+        width: 26px; }
       footer .itemf-2 ul li {
         font-size: 14px;
         text-align: center;
         color: #fff; }
+
+.itemf-3 {
+  text-decoration: none;
+  list-style: none; }
+  .itemf-3 ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none; }
+    .itemf-3 ul a {
+      color: white;
+      text-decoration: none; }
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ab0000;
+  border-top: solid 0.1px #414141d2; }
+  .redes-sociales h1 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 20px; }
+  .redes-sociales ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    color: #fff; }
+    .redes-sociales ul a {
+      display: flex;
+      align-items: center;
+      gap: 5px; }
+    .redes-sociales ul img {
+      width: 20px; }
+
+.copy-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #860000;
+  padding: 5px; }
+  .copy-footer p {
+    color: #fff;
+    margin-bottom: 0; }
 
 .as-contacto {
   position: relative;
@@ -372,3 +431,69 @@ footer {
       border: solid 2px #00000062; }
     .as-contacto .cont-form form .boton-enviar:active {
       box-shadow: 1px 1px 2px #000; }
+
+.as-postulate {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse; }
+  .as-postulate svg {
+    position: absolute;
+    z-index: -1;
+    bottom: -7.2rem; }
+  .as-postulate .t-postulate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .as-postulate .t-postulate h1 {
+      font-size: 4.4rem;
+      font-weight: 700; }
+  .as-postulate img {
+    width: 800px;
+    height: 650px; }
+  .as-postulate .cont-form2 {
+    margin-left: 60px; }
+    .as-postulate .cont-form2 form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 12px;
+      width: 600px;
+      height: 800px; }
+      .as-postulate .cont-form2 form input {
+        padding: 8px; }
+      .as-postulate .cont-form2 form p {
+        position: relative;
+        font-size: 20px;
+        font-weight: 600;
+        top: 12px; }
+      .as-postulate .cont-form2 form form input, .as-postulate .cont-form2 form textarea {
+        resize: none;
+        padding: 5px;
+        margin-bottom: 10px; }
+      .as-postulate .cont-form2 form .boton-enviar {
+        font-size: 20px;
+        font-weight: 600;
+        align-self: center;
+        width: 220px;
+        box-shadow: 4px 4px 2px #000;
+        border-radius: 10px;
+        transition: 0.1s ease-in-out; }
+      .as-postulate .cont-form2 form .boton-enviar:hover {
+        color: #fff;
+        border-radius: 10px;
+        background-color: red;
+        border: solid 2px #00000062; }
+      .as-postulate .cont-form2 form .boton-enviar:active {
+        box-shadow: 1px 1px 2px #000; }
+
+.main-mailing {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 20px;
+  border: solid 2px; }
+  .main-mailing h1 {
+    font-size: 7.2rem;
+    font-weight: 700; }

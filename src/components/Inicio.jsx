@@ -88,6 +88,9 @@ const Inicio = () => {
       </div>
       <main>
         <section className="cont-texto">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f90000" fill-opacity="1" d="M0,256L120,224C240,192,480,128,720,85.3C960,43,1200,21,1320,10.7L1440,0L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+        </svg>
         <h1>Si elegis Supermercado, elegís <span style={{color: "#D40000"}}>Bocata</span></h1>
         <p>Nuestro compromiso es contigo.</p>
         <button className="boton">Boton</button>
@@ -212,7 +215,7 @@ const Inicio = () => {
     </section>
     
     <div className="ubicados">
-      <iframe style={{border:"solid 2px #000", borderRadius:"10px", boxShadow:"2px 2px 2px 0px #f90000"}} className='mapa-iframe-ubicacion' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.4474581258214!2d-56.137374423520285!3d-34.87010857161695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80c0441d1e2d%3A0x503c860aa30d8a2d!2sSupermercado%20Bocata!5e0!3m2!1ses-419!2suy!4v1714187476144!5m2!1ses-419!2suy" width="650" height="500" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe id='mapa-ubicacion' style={{border:"solid 2px #000", borderRadius:"10px", boxShadow:"2px 2px 2px 0px #f90000"}} className='mapa-iframe-ubicacion' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.4474581258214!2d-56.137374423520285!3d-34.87010857161695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80c0441d1e2d%3A0x503c860aa30d8a2d!2sSupermercado%20Bocata!5e0!3m2!1ses-419!2suy!4v1714187476144!5m2!1ses-419!2suy" width="650" height="500" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <div className='ubicados-aside'>
         <h1>Estamos ubicados en 8 de Octubre 4130
           esq. Pascual Paladino.

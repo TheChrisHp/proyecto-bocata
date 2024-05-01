@@ -1,4 +1,36 @@
+import Swal from 'sweetalert2'
+
 const Contacto = () =>{
+    const notificacion = (e) =>{
+        e.preventDefault();
+
+        const nombre = e.target.nombre.value;
+        const apellido = e.target.apellido.value;
+        const email = e.target.apellido.value;
+
+        if (nombre && apellido && email){
+            Swal.fire({
+                background: '#C40000',
+                color: 'white',
+                title: '¡Mensaje Envíado!',
+                text: 'Gracias por tu mensaje, ¡pronto nos comunicaremos contigo!',
+                icon: 'success',
+                buttonsStyling: 'white',
+                confirmButtonText: 'Aceptar',
+            });
+        } else {
+            Swal.fire({
+                background: 'white',
+                color: 'black',
+                title: 'Error',
+                text: 'Debes rellenar todos los campos',
+                icon: 'error',
+                buttonsStyling: 'white',
+                confirmButtonText: 'Aceptar',
+            });
+        }
+    }
+ 
     return (
     <>
         <div className="as-contacto">
@@ -10,7 +42,7 @@ const Contacto = () =>{
                 <img src="./resources/draw-2.svg" alt="draw-2" />
             </div>
             <div className="cont-form">
-                <form method="get">
+                <form onSubmit={notificacion} method="get">
                     <p>Ingrese su Nombre</p>
                     <input type="text" name="nombre" placeholder="Ingrese su nombre Aquí" />
                     <p>Ingrese su Apellido</p>

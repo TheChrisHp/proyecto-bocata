@@ -1,26 +1,8 @@
 @import './variables';
-
-  /* FOOTER */
-  /* INICIO FOOTER */
-
-  @mixin items-f(){
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: start;
-    width: 220px;
-  }
-  
-  @mixin icon-footer(){
-      width: 26px;
-      margin-right: 10px;
-      vertical-align: middle;
-  }
-  
   footer{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #ab0000;
     height: 200px;
   
@@ -56,8 +38,6 @@
         }
       }
     }
-  
-  
     .itemf-2{
       @include items-f;
   
@@ -77,6 +57,19 @@
       ul{
         list-style: none;
         text-align: center;
+
+        a{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          font-size: 15px;
+          margin-right: 20px;
+        }
+        
+        img{
+          width: 26px;
+        }
   
         li {
           font-size: 14px;
@@ -84,6 +77,104 @@
           color: $c_blanco;
         }
       }
-  
     }
   }
+
+  .itemf-3{
+    text-decoration: none;
+    list-style: none;
+
+    ul{
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+
+      a{
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  // .itemf-4{
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+
+  //   h1{
+  //     font-size: 20px;
+  //     color: white;
+  //   }
+
+  //   ul{
+  //     display: flex;
+  //     flex-direction: column;
+  //     margin-right: 2rem;
+  //     list-style: none;
+
+  //     li{
+  //       color: $c_blanco;
+
+  //       a{
+  //         display: flex;
+  //         align-items: center;
+  //         align-self: center;
+  //         font-size: 14px;
+  //         text-align: center;
+  //         img{
+  //           margin-right: 8px;
+  //           margin-top: 5px;
+  //           width: 26px;
+            
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+
+.redes-sociales{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ab0000;
+  border-top: solid 0.1px #414141d2;
+
+  h1{
+    color: $c_blanco;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+
+  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    color: $c_blanco;
+
+    a{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    img{
+      width: 20px;
+    }
+  }
+}
+
+.copy-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #860000;
+  padding: 5px;
+
+  p{
+    color: $c_blanco;
+    margin-bottom: 0;
+  }
+}

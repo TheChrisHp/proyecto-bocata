@@ -1,0 +1,14 @@
+// FOOTER
+@mixin items-f(){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    width: 220px;
+  }
+  
+@mixin icon-footer(){
+    width: 26px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
