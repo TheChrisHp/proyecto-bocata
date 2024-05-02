@@ -89,11 +89,11 @@ const Inicio = () => {
       <main>
         <section className="cont-texto">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#f90000" fill-opacity="1" d="M0,256L120,224C240,192,480,128,720,85.3C960,43,1200,21,1320,10.7L1440,0L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+        <path fill="#c70000" fill-opacity="1" d="M0,256L120,224C240,192,480,128,720,85.3C960,43,1200,21,1320,10.7L1440,0L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
         </svg>
         <h1>Si elegis Supermercado, elegís <span style={{color: "#D40000"}}>Bocata</span></h1>
         <p>Nuestro compromiso es contigo.</p>
-        <button className="boton">Boton</button>
+        {/* <button className="boton">Boton</button> */}
         </section>
         <img src="https://cdn.discordapp.com/attachments/1228542950636781569/1232770813736783952/bocata-logo.png?ex=662aaac9&is=66295949&hm=75c68973bdae1b09d7f893b85fbce9dadad7adde04f9b2b9d6a9d58e51fa4b3a&" alt="" />
       </main>
@@ -106,8 +106,8 @@ const Inicio = () => {
 
   <div className='cont-imbatibles'>
 
-  <svg className='svg-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-  <path fill="#f90000" fill-opacity="1" d="M0,288L120,261.3C240,235,480,181,720,138.7C960,96,1200,64,1320,48L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+<svg className='svg-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#c70000" fill-opacity="1" d="M0,256L48,250.7C96,245,192,235,288,245.3C384,256,480,288,576,272C672,256,768,192,864,144C960,96,1056,64,1152,64C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
 </svg>
     
     <section className='s-imbatibles'>
@@ -119,7 +119,7 @@ const Inicio = () => {
     {/* CARROUSEL 2 */}
     <div className="cont-cont-carrousel2">
     <svg className='svg-2' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path fill="#f90000" fill-opacity="1" d="M0,192L34.3,186.7C68.6,181,137,171,206,149.3C274.3,128,343,96,411,101.3C480,107,549,149,617,160C685.7,171,754,149,823,122.7C891.4,96,960,64,1029,85.3C1097.1,107,1166,181,1234,181.3C1302.9,181,1371,107,1406,69.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+    <path fill="#c70000" fill-opacity="1" d="M0,192L34.3,186.7C68.6,181,137,171,206,149.3C274.3,128,343,96,411,101.3C480,107,549,149,617,160C685.7,171,754,149,823,122.7C891.4,96,960,64,1029,85.3C1097.1,107,1166,181,1234,181.3C1302.9,181,1371,107,1406,69.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
     </svg>
         <div className="cont-carrousel2">
           <div
@@ -211,7 +211,7 @@ const Inicio = () => {
       </div>
     
     <section className='cont-ubicados'>
-      <h1>¿Dónde nos <span style={{color:"white", backgroundColor:"red"}}>ENCONTRAMOS?</span></h1>
+      <h1>¿DÓNDE NOS <span style={{color:"white", backgroundColor:"red"}}>ENCONTRAMOS?</span></h1>
     </section>
     
     <div className="ubicados">

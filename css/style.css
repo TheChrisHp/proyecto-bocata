@@ -76,14 +76,14 @@ main {
     font-family: "Poppins" sans-serif;
     font-weight: 700;
     text-align: start;
-    font-size: 5.4rem; }
+    font-size: 6.2rem; }
   main img {
     width: 490px;
     height: 532px; }
 
 .cont-texto {
   margin-top: 20px;
-  margin-left: 120px;
+  margin-left: 89px;
   padding: 32px;
   display: flex;
   justify-content: center;
@@ -109,6 +109,9 @@ main {
     .cont-texto .boton:hover {
       background-color: #910000;
       color: #fff; }
+  .cont-texto p {
+    font-size: 1.2rem;
+    font-weight: 600; }
 
 .section-2 {
   margin-bottom: 20px; }
@@ -139,7 +142,7 @@ main {
     position: absolute;
     width: 2000px;
     right: 0;
-    bottom: -16rem; }
+    bottom: -12rem; }
   .cont-imbatibles .s-imbatibles {
     display: flex;
     justify-content: start;
@@ -198,7 +201,7 @@ main {
   display: flex;
   justify-content: center;
   padding: 20px;
-  background: #f90000;
+  background: #c70000;
   z-index: 99999; }
   .cont-btn-carrou-2 button {
     background-color: #ec0000;
@@ -336,7 +339,8 @@ footer {
 
 .itemf-3 {
   text-decoration: none;
-  list-style: none; }
+  list-style: none;
+  margin-top: 32px; }
   .itemf-3 ul {
     display: flex;
     flex-direction: column;
@@ -488,12 +492,134 @@ footer {
       .as-postulate .cont-form2 form .boton-enviar:active {
         box-shadow: 1px 1px 2px #000; }
 
+.background-mailing {
+  background: url("https://media.discordapp.net/attachments/1228542950636781569/1232181570627174440/434601893_814535467370693_6833600161098087434_n.jpg?ex=6633bac3&is=66326943&hm=99f5916739763270d1969c77cca5f1025b359721b8e422e6ad67c06613a035c0&=&format=webp");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .main-mailing {
   display: flex;
   justify-content: center;
   padding: 10px;
   margin-top: 20px;
-  border: solid 2px; }
+  border-width: 0.2px; }
   .main-mailing h1 {
     font-size: 7.2rem;
     font-weight: 700; }
+
+.carousel-mailing {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px; }
+  .carousel-mailing .h1-mailing {
+    width: 700px; }
+    .carousel-mailing .h1-mailing h1 {
+      font-size: 4.2rem;
+      font-weight: 700; }
+    .carousel-mailing .h1-mailing p {
+      font-size: 1.3rem;
+      font-weight: 500; }
+    .carousel-mailing .h1-mailing .boton-imperdible {
+      height: 60px;
+      background-color: #ec0000;
+      color: #fff;
+      font-size: 1.6rem;
+      font-weight: 600;
+      border: solid 2px #202020;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 6px 4px 2px 2px black; }
+      .carousel-mailing .h1-mailing .boton-imperdible:active {
+        box-shadow: 2px 2px 2px 2px black; }
+  .carousel-mailing .draw-4 {
+    position: absolute;
+    width: 500px;
+    left: 5rem;
+    bottom: 40px; }
+  .carousel-mailing .image-gallery-svg {
+    width: 32px; }
+  .carousel-mailing .image-gallery-icon:hover {
+    color: #a40000; }
+  .carousel-mailing .image-gallery-thumbnails-container {
+    background-color: #471515;
+    box-shadow: 20px 5px 10px #000; }
+  .carousel-mailing .image-gallery-thumbnail.active, .carousel-mailing .image-gallery-thumbnail:focus, .carousel-mailing .image-gallery-thumbnail:hover {
+    border: solid 4px red; }
+  .carousel-mailing .image-gallery-icon:focus {
+    outline: red; }
+
+.svg-mailing {
+  position: absolute;
+  left: 0;
+  bottom: -4.2rem;
+  z-index: -1; }
+
+.section-ingresar-mailing {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  z-index: 1; }
+  .section-ingresar-mailing div {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .section-ingresar-mailing div h1 {
+      font-size: 5.2rem;
+      font-weight: 700;
+      text-align: center; }
+  .section-ingresar-mailing .link-mailing {
+    color: red; }
+    .section-ingresar-mailing .link-mailing:hover {
+      color: #ba0101; }
+
+.cont-dudas-contacto-mailing {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column; }
+
+.encabezado-dudas-mailing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.563), rgba(0, 0, 0, 0.601)), url("https://images.unsplash.com/photo-1516321165247-4aa89a48be28?q=80&w=2121&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px;
+  margin-bottom: 40px; }
+  .encabezado-dudas-mailing h1 {
+    color: #fff;
+    font-size: 7.2rem;
+    font-weight: 700; }
+
+.cont-contactarnos {
+  display: flex;
+  justify-content: space-around; }
+
+.contactarnos {
+  width: 800px;
+  margin-left: 50px; }
+  .contactarnos h1 {
+    font-size: 3.6rem;
+    font-weight: 700; }
+  .contactarnos p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 3.2rem; }
+  .contactarnos button {
+    margin: 10px;
+    width: 250px;
+    background-color: #ec0000;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: solid 2px #202020;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 6px 4px 2px 2px black; }
+    .contactarnos button:active {
+      box-shadow: 2px 2px 2px 2px black; }

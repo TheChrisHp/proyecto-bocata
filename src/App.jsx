@@ -8,7 +8,6 @@ import Postulate from './components/Postulate';
 import Mailing from './components/Mailing';
 
 
-
 function App() {
   return (
     <Router>

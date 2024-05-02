@@ -37,7 +37,7 @@ padding: 0;
     font-family: "Poppins" sans-serif;
     font-weight: 700;
     text-align: start;
-    font-size: 5.4rem;
+    font-size: 6.2rem;
   }
 
   img{
@@ -48,7 +48,7 @@ padding: 0;
 
 .cont-texto{
   margin-top: 20px;
-  margin-left: 120px;
+  margin-left: 89px;
   padding: 32px;
   display: flex;
   justify-content: center;
@@ -79,6 +79,11 @@ padding: 0;
       background-color: $c_rojo;
       color: $c_blanco;
     }
+  }
+
+  p{
+    font-size: 1.2rem;
+    font-weight: 600;
   }
 }
 
@@ -120,7 +125,7 @@ padding: 0;
     width: 2000px;
     // height: 200px;
     right: 0;
-    bottom: -16rem;
+    bottom: -12rem;
   }
 
   .s-imbatibles{
@@ -206,7 +211,7 @@ padding: 0;
   display: flex;
   justify-content: center;
   padding: 20px;
-  background: #f90000;
+  background: #c70000;
   z-index: 99999;
 
   button{

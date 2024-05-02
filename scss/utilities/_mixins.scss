@@ -1,3 +1,33 @@
+//BOTONES
+@mixin boton(){
+    background-color: #ec0000;
+    color: $c_blanco;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: solid 2px $c_negro;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 6px 4px 2px 2px rgb(0, 0, 0);
+
+  &:active{
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  }
+}
+
+@mixin boton-link($fuente){
+  background-color: #ec0000;
+  color: $c_blanco;
+  font-size: $fuente;
+  font-weight: 700;
+  border: solid 2px $c_negro;
+  border-radius: 10px;
+  box-shadow: 6px 4px 2px 2px rgb(0, 0, 0);
+
+&:active{
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+}
+
 // FOOTER
 @mixin items-f(){
     display: flex;

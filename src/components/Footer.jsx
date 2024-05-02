@@ -13,6 +13,7 @@ const Footer = () =>{
                 <Link to>Postulacion</Link>
                 <Link to>Mailing</Link>
                 <Link to>Imbatibles</Link>
+                <Link to>Como llegar</Link>
             </ul>
         </div>
         

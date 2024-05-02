@@ -83,6 +83,7 @@
   .itemf-3{
     text-decoration: none;
     list-style: none;
+    margin-top: 32px;
 
     ul{
       display: flex;
@@ -95,42 +96,6 @@
       }
     }
   }
-
-  // .itemf-4{
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center;
-
-  //   h1{
-  //     font-size: 20px;
-  //     color: white;
-  //   }
-
-  //   ul{
-  //     display: flex;
-  //     flex-direction: column;
-  //     margin-right: 2rem;
-  //     list-style: none;
-
-  //     li{
-  //       color: $c_blanco;
-
-  //       a{
-  //         display: flex;
-  //         align-items: center;
-  //         align-self: center;
-  //         font-size: 14px;
-  //         text-align: center;
-  //         img{
-  //           margin-right: 8px;
-  //           margin-top: 5px;
-  //           width: 26px;
-            
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
 
 .redes-sociales{
   display: flex;
