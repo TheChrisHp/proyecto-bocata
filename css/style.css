@@ -28,7 +28,11 @@
     background-color: #8b0000; }
 
 .navbar-nav {
-  text-align: center; }
+  text-align: center;
+  --bs-nav-link-hover-color:rgb(255 255 255 / 80%); }
+
+.nav-link:focus {
+  color: #fff; }
 
 .logo-bocata {
   width: 110px; }
@@ -121,7 +125,7 @@ main {
     align-items: center;
     margin: 0;
     height: 250px;
-    background: linear-gradient(rgba(0, 0, 0, 0.563), rgba(0, 0, 0, 0.601)), url("https://cdn.discordapp.com/attachments/1228542950636781569/1232881116734820363/BANER-FONDO-HOME.jpg?ex=662b1184&is=6629c004&hm=9d51fbea8bdec887c84523dddb840c2912aad9c1d3ea86ce1313c06ab22fcab0&");
+    background: linear-gradient(rgba(0, 0, 0, 0.563), rgba(0, 0, 0, 0.601)), url("https://res.cloudinary.com/dfnton7oq/image/upload/v1714697155/samples/bocata-imgs/BANER-FONDO-HOME_w2phog.jpg");
     background-position: top;
     background-attachment: fixed; }
     .section-2 .img-bocata-p h1 {
@@ -219,7 +223,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.563), rgba(0, 0, 0, 0.601)), url("https://images.unsplash.com/photo-1578916171728-46686eac8d58?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background: linear-gradient(rgba(0, 0, 0, 0.563), rgba(0, 0, 0, 0.601)), url("https://res.cloudinary.com/dfnton7oq/image/upload/v1714699305/samples/bocata-imgs/photo-1578916171728-46686eac8d58_r8vqa9.avif");
   background-attachment: fixed;
   height: 200px; }
   .cont-ubicados h1 {
@@ -416,7 +420,15 @@ footer {
       position: relative;
       font-size: 20px;
       font-weight: 600;
-      top: 32px; }
+      top: 32px;
+      margin-bottom: 2rem; }
+    .as-contacto .cont-form form .err-p {
+      font-size: 15px;
+      color: red;
+      position: relative;
+      top: 0rem;
+      margin: 0;
+      padding: 0; }
     .as-contacto .cont-form form form input, .as-contacto .cont-form form textarea {
       resize: none;
       padding: 5px; }
@@ -472,6 +484,13 @@ footer {
         font-size: 20px;
         font-weight: 600;
         top: 12px; }
+      .as-postulate .cont-form2 form .err-p-pos {
+        font-size: 15px;
+        color: red;
+        position: relative;
+        top: 0rem;
+        margin: 0;
+        padding: 0; }
       .as-postulate .cont-form2 form form input, .as-postulate .cont-form2 form textarea {
         resize: none;
         padding: 5px;
@@ -493,7 +512,7 @@ footer {
         box-shadow: 1px 1px 2px #000; }
 
 .background-mailing {
-  background: url("https://media.discordapp.net/attachments/1228542950636781569/1232181570627174440/434601893_814535467370693_6833600161098087434_n.jpg?ex=6633bac3&is=66326943&hm=99f5916739763270d1969c77cca5f1025b359721b8e422e6ad67c06613a035c0&=&format=webp");
+  background: url("https://res.cloudinary.com/dfnton7oq/image/upload/v1714697324/samples/bocata-imgs/434601893_814535467370693_6833600161098087434_n_rqx3su.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -514,14 +533,15 @@ footer {
   justify-content: space-around;
   margin-top: 10px; }
   .carousel-mailing .h1-mailing {
+    margin-left: 4rem;
     width: 700px; }
     .carousel-mailing .h1-mailing h1 {
-      font-size: 4.2rem;
+      font-size: 4.4rem;
       font-weight: 700; }
     .carousel-mailing .h1-mailing p {
       font-size: 1.3rem;
       font-weight: 500; }
-    .carousel-mailing .h1-mailing .boton-imperdible {
+    .carousel-mailing .h1-mailing .boton-imbatible {
       height: 60px;
       background-color: #ec0000;
       color: #fff;
@@ -531,8 +551,8 @@ footer {
       border-radius: 10px;
       padding: 10px;
       box-shadow: 6px 4px 2px 2px black; }
-      .carousel-mailing .h1-mailing .boton-imperdible:active {
-        box-shadow: 2px 2px 2px 2px black; }
+      .carousel-mailing .h1-mailing .boton-imbatible:active {
+        box-shadow: 1px 1px 1px 1px black; }
   .carousel-mailing .draw-4 {
     position: absolute;
     width: 500px;
@@ -549,6 +569,9 @@ footer {
     border: solid 4px red; }
   .carousel-mailing .image-gallery-icon:focus {
     outline: red; }
+
+.image-gallery {
+  width: 900px; }
 
 .svg-mailing {
   position: absolute;
@@ -586,7 +609,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.563), rgba(0, 0, 0, 0.601)), url("https://images.unsplash.com/photo-1516321165247-4aa89a48be28?q=80&w=2121&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background: linear-gradient(rgba(0, 0, 0, 0.563), rgba(0, 0, 0, 0.601)), url("https://res.cloudinary.com/dfnton7oq/image/upload/v1714699405/samples/bocata-imgs/photo-1516321165247-4aa89a48be28_tzriyo.avif");
   background-size: cover;
   background-attachment: fixed;
   height: 200px;
@@ -622,4 +645,4 @@ footer {
     padding: 10px;
     box-shadow: 6px 4px 2px 2px black; }
     .contactarnos button:active {
-      box-shadow: 2px 2px 2px 2px black; }
+      box-shadow: 1px 1px 1px 1px black; }

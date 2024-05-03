@@ -3,7 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 const Nav = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-light">
+      <nav className="navbar navbar-expand-lg bg-light" id='inicio-nav'>
         <div className="container-fluid">
           <Link className="cont-img-logo-nav" to="/Inicio">
             <img className='logo-bocata' src="./resources/bocata-logo.png"></img>

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Inicio = () => {
   return (
@@ -36,21 +36,21 @@ const Inicio = () => {
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  src="https://cdn.discordapp.com/attachments/1228542950636781569/1232181570627174440/434601893_814535467370693_6833600161098087434_n.jpg?ex=662bd1c3&is=662a8043&hm=279ff1ab565c65dcfb56e526e60d721fe23c60312d9b1ccab603c6f69828fc08&"
+                  src="https://res.cloudinary.com/dfnton7oq/image/upload/v1714697324/samples/bocata-imgs/434601893_814535467370693_6833600161098087434_n_rqx3su.jpg"
                   class="d-block w-100"
                   alt="inicio-carrusel"
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://media.discordapp.net/attachments/1228542950636781569/1232878531520892948/img42.jpg?ex=662bb7db&is=662a665b&hm=ebe93175297a18e87c3ee4269c5403472c9df147d7f56b06347a8deabc51949f&=&format=webp&width=1920&height=1080"
+                  src="https://res.cloudinary.com/dfnton7oq/image/upload/v1714697188/samples/bocata-imgs/img42_c9vsji.jpg"
                   class="d-block w-100"
                   alt="inicio-carrusel2"
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://cdn.discordapp.com/attachments/1228542950636781569/1232181570627174440/434601893_814535467370693_6833600161098087434_n.jpg?ex=66288603&is=66273483&hm=e8f26efdae32412ffa8b30ed2e891169c0b8113c55edc7847c1d142edd467aec&"
+                  src="https://res.cloudinary.com/dfnton7oq/image/upload/v1714697324/samples/bocata-imgs/434601893_814535467370693_6833600161098087434_n_rqx3su.jpg"
                   class="d-block w-100"
                   alt="..."
                 />
@@ -95,7 +95,7 @@ const Inicio = () => {
         <p>Nuestro compromiso es contigo.</p>
         {/* <button className="boton">Boton</button> */}
         </section>
-        <img src="https://cdn.discordapp.com/attachments/1228542950636781569/1232770813736783952/bocata-logo.png?ex=662aaac9&is=66295949&hm=75c68973bdae1b09d7f893b85fbce9dadad7adde04f9b2b9d6a9d58e51fa4b3a&" alt="" />
+        <img src="https://res.cloudinary.com/dfnton7oq/image/upload/v1714699203/samples/bocata-imgs/bocata-logo_wlktwj.png" alt="" />
       </main>
 
       <section className='section-2'>
@@ -117,7 +117,7 @@ const Inicio = () => {
     </div>
 
     {/* CARROUSEL 2 */}
-    <div className="cont-cont-carrousel2">
+    <div className="cont-cont-carrousel2" id='carousel-2'>
     <svg className='svg-2' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path fill="#c70000" fill-opacity="1" d="M0,192L34.3,186.7C68.6,181,137,171,206,149.3C274.3,128,343,96,411,101.3C480,107,549,149,617,160C685.7,171,754,149,823,122.7C891.4,96,960,64,1029,85.3C1097.1,107,1166,181,1234,181.3C1302.9,181,1371,107,1406,69.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
     </svg>
@@ -153,27 +153,27 @@ const Inicio = () => {
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  src="https://media.discordapp.net/attachments/1228542950636781569/1232878532171005972/img54.jpg?ex=662bb7db&is=662a665b&hm=f5f5f92d6e5fd400f7cfe1e44658a6aca71f0475702a415d26985439c5653a21&=&format=webp&width=610&height=468"
+                  src="https://res.cloudinary.com/dfnton7oq/image/upload/v1714702190/samples/bocata-imgs/440582793_828546275969612_9130431802598810874_n_eieuod.jpg"
                   class="d-block w-100"
                   alt="inicio-carrusel"
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://media.discordapp.net/attachments/1228542950636781569/1232878530464055306/img70.jpg?ex=662bb7db&is=662a665b&hm=913181184dc4fe1abb88a14060acc47f60b471138f051755f37c475d24884df2&=&format=webp&width=610&height=468"
+                  src="https://res.cloudinary.com/dfnton7oq/image/upload/v1714702029/samples/bocata-imgs/440461280_828546205969619_8759338839988000312_n_byo2sg.jpg"
                   class="d-block w-100"
                   alt="inicio-carrusel2"
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://media.discordapp.net/attachments/1228542950636781569/1232878530740748378/img74.jpg?ex=662bb7db&is=662a665b&hm=218467ed330efa321179cf57a48149bac28adc15856bc088e2b188ddb0b1fe1b&=&format=webp&width=610&height=468"
+                  src="https://res.cloudinary.com/dfnton7oq/image/upload/v1714702032/samples/bocata-imgs/440608246_828546189302954_3072576586392460864_n_fz5bls.jpg"
                   class="d-block w-100"
                   alt="..."
                 />
               </div>
               <div class="carousel-item">
-                <img src="https://media.discordapp.net/attachments/1228542950636781569/1232878533198614568/img66.jpg?ex=662bb7dc&is=662a665c&hm=efed700bb965b77a06d313c512d19307c7df8eb90730472133367f1307d2fa60&=&format=webp&width=610&height=468" class="d-block w-100" alt="..."/>
+                <img src="https://res.cloudinary.com/dfnton7oq/image/upload/v1714702024/samples/bocata-imgs/438810794_828546232636283_4185671170793695186_n_x7jmpb.jpg" class="d-block w-100" alt="..."/>
               </div>
             </div>
             <button
@@ -205,8 +205,8 @@ const Inicio = () => {
       </div>
 
       <div className='cont-btn-carrou-2'>
-        <Link to={""}>
-        <button to="https://google.com"> 🔥 ¡Ver todos los IMBATIBLES! 🔥</button>
+        <Link to="https://www.facebook.com/100064427420227/posts/pfbid033sTFjhWZgu2oEZ387Kdk557Udps9xHXJqWYqbRPK3KuedNStDDJs1WgJ1ii9jNhCl/">
+        <button> 🔥 ¡Ver todos los IMBATIBLES! 🔥</button>
         </Link>
       </div>
     
@@ -222,7 +222,7 @@ const Inicio = () => {
         </h1>
         <img className='draw-1' src="./resources/draw-1.svg" alt="draw-1-ubicacion" />
         <h1 className='h1-esperamos'>¡Te esperamos!, no olvides consultar nuestro <span style={{background:"red", color:"white"}}>MAILING</span></h1>
-        <Link>
+        <Link to="/mailing#mailing-carou">
           <button className='btn-mailing'>Ver Mailing</button>
         </Link>
       </div>

@@ -1,5 +1,5 @@
 .background-mailing{
-    background: url('https://media.discordapp.net/attachments/1228542950636781569/1232181570627174440/434601893_814535467370693_6833600161098087434_n.jpg?ex=6633bac3&is=66326943&hm=99f5916739763270d1969c77cca5f1025b359721b8e422e6ad67c06613a035c0&=&format=webp');
+    background: url('https://res.cloudinary.com/dfnton7oq/image/upload/v1714697324/samples/bocata-imgs/434601893_814535467370693_6833600161098087434_n_rqx3su.jpg');
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,10 +27,11 @@
     margin-top: 10px;
 
     .h1-mailing{
+        margin-left: 4rem;
         width: 700px;
 
         h1{
-            font-size: 4.2rem;
+            font-size: 4.4rem;
             font-weight: 700;
         }
 
@@ -39,7 +40,7 @@
             font-weight: 500;
         }
 
-        .boton-imperdible{
+        .boton-imbatible{
             height: 60px;
             @include boton();
         }
@@ -73,6 +74,10 @@
     .image-gallery-icon:focus{
         outline: red;
     }
+}
+
+.image-gallery{
+    width: 900px;
 }
 
 .svg-mailing{
@@ -125,7 +130,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background:  linear-gradient(rgba(0, 0, 0, 0.563), rgba(0, 0, 0, 0.601)), url('https://images.unsplash.com/photo-1516321165247-4aa89a48be28?q=80&w=2121&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background:  linear-gradient(rgba(0, 0, 0, 0.563), rgba(0, 0, 0, 0.601)), url('https://res.cloudinary.com/dfnton7oq/image/upload/v1714699405/samples/bocata-imgs/photo-1516321165247-4aa89a48be28_tzriyo.avif');
     background-size: cover;
     background-attachment: fixed;
     height: 200px;

@@ -9,11 +9,11 @@ const Footer = () =>{
         </Link>
         <div className='itemf-3'>
             <ul>
-                <a><Link to>Contacto</Link></a>
-                <Link to>Postulacion</Link>
-                <Link to>Mailing</Link>
-                <Link to>Imbatibles</Link>
-                <Link to>Como llegar</Link>
+                <a><Link to="/contacto">Contacto</Link></a>
+                <Link to="/postulate">Postulacion</Link>
+                <Link to="/mailing">Mailing</Link>
+                <Link to="/Inicio#carousel-2">Imbatibles</Link>
+                <Link to="./Inicio#mapa-ubicacion">Como llegar</Link>
             </ul>
         </div>
         

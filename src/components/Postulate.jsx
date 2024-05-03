@@ -1,6 +1,8 @@
+import { useState } from 'react';
 import Swal from 'sweetalert2'
 
 const Postulate = () =>{
+    const [txterror, settxterror] = useState('')
         const handleFormSubmit = (e) => {
           e.preventDefault();
           
@@ -18,15 +20,17 @@ const Postulate = () =>{
                     buttonsStyling: 'white',
                     confirmButtonText: 'Aceptar',
                 });
+                settxterror('')
           } else {
             Swal.fire({
                 background: 'white',
                 color: 'black',
                 title: 'Error',
-                text: '¡Por favor Completa los campos OBLIGATORIOS! (nombre, apellido y email)',
+                text: '¡Por favor Completa los campos OBLIGATORIOS!',
                 icon: 'error',
                 confirmButtonText: 'Aceptar',
             });
+            settxterror('Debes rellenar estos campos')
           }
         };
     return(
@@ -43,10 +47,13 @@ const Postulate = () =>{
                 <form onSubmit={handleFormSubmit} method="get">
                     <p>Ingrese su Nombre</p>
                     <input type="text" name="nombre" placeholder="Ingrese su nombre Aquí" />
+                    <p className='err-p-pos'>{txterror}</p>
                     <p>Ingrese su Apellido</p>
                     <input type="text" name="apellido" placeholder="Ingrese su apellido Aquí"/>
+                    <p className='err-p-pos'>{txterror}</p>
                     <p>Ingresa tu E-mail</p>
                     <input type="email" name="email" placeholder="Ingrese su Email Aquí" />
+                    <p className='err-p-pos'>{txterror}</p>
                     <p>Sexo</p>
                     <select name="sexo" class="form-select" aria-label="Default select example">
                     <option selected>Selecciona una opción</option>

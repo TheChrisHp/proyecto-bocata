@@ -32,6 +32,11 @@
 
   .navbar-nav{
     text-align: center;
+    --bs-nav-link-hover-color:rgb(255 255 255 / 80%);
+  }
+
+  .nav-link:focus{
+    color: $c_blanco;
   }
   
   .logo-bocata{

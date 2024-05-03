@@ -1,12 +1,15 @@
 import Swal from 'sweetalert2'
+import React, { useState } from 'react';
 
 const Contacto = () =>{
+    const [mensajeError, setMensajeError] = useState('');
     const notificacion = (e) =>{
         e.preventDefault();
 
         const nombre = e.target.nombre.value;
         const apellido = e.target.apellido.value;
-        const email = e.target.apellido.value;
+        const email = e.target.email.value;
+
 
         if (nombre && apellido && email){
             Swal.fire({
@@ -18,6 +21,7 @@ const Contacto = () =>{
                 buttonsStyling: 'white',
                 confirmButtonText: 'Aceptar',
             });
+            setMensajeError('');
         } else {
             Swal.fire({
                 background: 'white',
@@ -28,6 +32,7 @@ const Contacto = () =>{
                 buttonsStyling: 'white',
                 confirmButtonText: 'Aceptar',
             });
+            setMensajeError('Debes rellenar todos los campos.');
         }
     }
  
@@ -45,11 +50,14 @@ const Contacto = () =>{
                 <form onSubmit={notificacion} method="get">
                     <p>Ingrese su Nombre</p>
                     <input type="text" name="nombre" placeholder="Ingrese su nombre Aquí" />
+                    {mensajeError && <p className="err-p">{mensajeError}</p>}
                     <p>Ingrese su Apellido</p>
                     <input type="text" name="apellido" placeholder="Ingrese su apellido Aquí"/>
-                    <p>Ingresa tu E-mail</p>
+                    {mensajeError && <p className="err-p">{mensajeError}</p>}
+                    <p>Ingrese su Email</p>
                     <input type="email" name="email" placeholder="Ingrese su Email Aquí"/>
-                    <p>¡Envíanos tu mensaje!</p>
+                    {mensajeError && <p className="err-p">{mensajeError}</p>}
+                    <p>Envíanos tu comentario</p>
                     <textarea name="texto" cols={23} rows={5} placeholder="Escribe tu mensaje Aquí"/>
                     <input className="boton-enviar" type="submit" value="Enviar" name="boton" />
                 </form>

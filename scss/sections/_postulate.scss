@@ -49,6 +49,15 @@
                 top: 12px;
             }
 
+            .err-p-pos{
+                font-size: 15px;
+                color: red;
+                position: relative;
+                top: 0rem;
+                margin: 0;
+                padding: 0;
+            }
+
             form input, textarea{
                 resize: none;
                 padding: 5px;
