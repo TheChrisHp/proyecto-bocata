@@ -9,9 +9,9 @@ const Footer = () =>{
         </Link>
         <div className='itemf-3'>
             <ul>
-                <a><Link to="/contacto">Contacto</Link></a>
-                <Link to="/postulate">Postulacion</Link>
-                <Link to="/mailing">Mailing</Link>
+                <Link to="/Contacto">Contacto</Link>
+                <Link to="/Postulate">Postulacion</Link>
+                <Link to="/Mailing#mailing-carou">Mailing</Link>
                 <Link to="/Inicio#carousel-2">Imbatibles</Link>
                 <Link to="./Inicio#mapa-ubicacion">Como llegar</Link>
             </ul>

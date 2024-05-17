@@ -1,16 +1,22 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
-import Contacto from './components/Contacto';
-import Error404 from './components/Error404';
+import Contacto from './pages/Contacto';
 import Footer from './components/Footer';
-import Inicio from './components/Inicio';
-import Postulate from './components/Postulate';
-import Mailing from './components/Mailing';
+import Inicio from './pages/Inicio';
+import Postulate from './pages/Postulate';
+import Mailing from './pages/Mailing';
 import ScrollArriba from './components/scrollarriba';
-import Ganadores from './components/Ganadores';
+import Ganadores from './pages/Ganadores';
+import Error404 from './pages/Error404';
+
+import '@mantine/core/styles.css';
+import { MantineProvider } from '@mantine/core';
+import '@mantine/carousel/styles.css';
+
 
 function App() {
   return (
+  <MantineProvider>
     <Router>
       <Nav />
       <ScrollArriba />
@@ -20,11 +26,12 @@ function App() {
         <Route path='/Postulate' element={<Postulate/>}/>
         <Route path='/Mailing' element={<Mailing/>}/>
         <Route path='/Ganadores' element={<Ganadores />}/>
-        <Route path="*" element={<Error404 />} />
+        <Route path='*' element={<Error404/>}/>
         {/* Agrega más rutas según tus necesidades */}
       </Routes>
       <Footer/ >
     </Router>
+  </MantineProvider>
     
   );
 }

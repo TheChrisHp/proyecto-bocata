@@ -6,6 +6,9 @@
 // MIXINS
 @import './utilities/mixins';
 
+//RESPONSIVE
+@import './responsive/responsive.scss';
+
 // SCSS SECCIONES
 @import './sections/nav';
 @import './sections/variables';
@@ -14,3 +17,5 @@
 @import './sections/contacto';
 @import './sections/postulate';
 @import './sections/mailing';
+@import './sections/ganadores';
+@import './sections/error404';

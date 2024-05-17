@@ -1,3 +1,8 @@
+.fondo-mailing{
+    background-color: #f2f2f2;
+    z-index: -1;
+}
+
 .background-mailing{
     background: url('https://res.cloudinary.com/dfnton7oq/image/upload/v1714697324/samples/bocata-imgs/434601893_814535467370693_6833600161098087434_n_rqx3su.jpg');
     height: 500px;
@@ -51,6 +56,7 @@
         width: 500px;
         left: 5rem;
         bottom: 40px;
+        z-index: 10;
         
     }
 
@@ -78,6 +84,7 @@
 
 .image-gallery{
     width: 900px;
+    z-index: 1;
 }
 
 .svg-mailing{
@@ -85,7 +92,7 @@
         position: absolute;
         left: 0;
         bottom: -4.2rem;
-        z-index: -1;
+        z-index: 1;
 }
 
 .section-ingresar-mailing{

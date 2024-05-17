@@ -1,0 +1,20 @@
+import { useRef } from 'react';
+import Autoplay from 'embla-carousel-autoplay';
+import { Carousel } from '@mantine/carousel';
+
+export default function Demo() {
+  const autoplay = useRef(Autoplay({ delay: 2500 }));
+  return (
+    <Carousel
+      withIndicators
+      height={600}
+      plugins={[autoplay.current]}
+      onMouseEnter={autoplay.current.stop}
+      onMouseLeave={autoplay.current.reset}
+    >
+      <Carousel.Slide> <img src="https://res.cloudinary.com/dfnton7oq/image/upload/v1714697324/samples/bocata-imgs/434601893_814535467370693_6833600161098087434_n_rqx3su.jpg" style={{width: '100%', height: '100%', objectFit: 'cover'}} alt="" /> </Carousel.Slide>
+      <Carousel.Slide> <img src="https://res.cloudinary.com/dfnton7oq/image/upload/v1714702026/samples/bocata-imgs/438814323_828545982636308_1284979537341310745_n_oqhr8t.jpg" style={{width: '100%', height: '100%', objectFit: 'cover'}} alt="" /> </Carousel.Slide>
+      <Carousel.Slide> <img src="https://res.cloudinary.com/dfnton7oq/image/upload/v1714697188/samples/bocata-imgs/img42_c9vsji.jpg" alt="" style={{width: '100%', height: '100%', objectFit: 'cover'}} /> </Carousel.Slide>
+    </Carousel>
+  );
+}

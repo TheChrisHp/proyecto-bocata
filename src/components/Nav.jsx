@@ -22,7 +22,7 @@ const Nav = () => {
                   </Link>
               <ul className="dropdown-menu">
                 <li><Link className="dropdown-item" to="./Postulate">Postulate</Link></li>
-                <li><Link className="dropdown-item" to="#">Ganadores de Sorteo</Link></li>
+                <li><Link className="dropdown-item" to="./Ganadores">Ganadores de Sorteo</Link></li>
                 <li><Link className="dropdown-item" to="./Inicio#mapa-ubicacion">Ubicación</Link></li>
               </ul>
             </div>

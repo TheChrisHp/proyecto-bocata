@@ -1,13 +1,45 @@
-@import './variables';
+.cont-404{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: solid 2px;
 
-/* ERROR 404 */
-  .cont-404{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .cont-404 h1{
+  h1{
     font-size: 5.2rem;
+    font-weight: 650;
   }
+
+  p{
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+
+  img{
+    width: 600px;
+    margin-left: 4rem;
+  }
+
+  .btn-err-404{
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: red;
+    color: $c_blanco;
+    border-radius: 9px;
+    padding: 10px;
+    border-style: none;
+    border: solid 2px #000;
+    cursor: pointer;
+    box-shadow: 0 0.255em  #000;
+    transition: transform 0.1s ease, box-shadow 0.2s ease;
+
+    &:hover{
+      background-color: rgb(219, 3, 3);
+  }
+
+  &:active{
+      transform: translateY(4px);
+      box-shadow: 0 0 0 rgb(0, 0, 0);
+  }
+  }
+}

@@ -1,3 +1,31 @@
+//BOTON 3D (EL MEJOR)
+@mixin boton3d(){
+  font-size: 2.2rem;
+  font-weight: 600;
+  background-color: red;
+  color: $c_blanco;
+  border-radius: 9px;
+  padding: 10px;
+  border-style: none;
+  border: solid 2px #000;
+  cursor: pointer;
+  box-shadow: 0 0.255em  #000;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+  &:hover{
+      background-color: rgb(219, 3, 3);
+  }
+
+  &:active{
+      transform: translateY(4px);
+      box-shadow: 0 0 0 rgb(0, 0, 0);
+  }
+
+  &:focus{
+    background-color: #740000;
+  }
+}
+
 //BOTONES
 @mixin boton(){
     background-color: #ec0000;
@@ -7,7 +35,10 @@
     border: solid 2px $c_negro;
     border-radius: 10px;
     padding: 10px;
+    border-style: none;
+    border: solid 1px #000;
     box-shadow: 6px 4px 2px 2px rgb(0, 0, 0);
+    z-index: 999999;
 
   &:active{
     box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);

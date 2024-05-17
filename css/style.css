@@ -5,6 +5,295 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box; }
 
+@media (max-width: 1663px) {
+  .carousel-mailing .h1-mailing a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    text-decoration: none; }
+  .carousel-mailing .draw-4 {
+    display: none; }
+  .contactarnos a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none; }
+  .cont-draw img {
+    margin-top: 40px; } }
+
+@media (max-width: 1496px) {
+  .cont-ubicados h1 {
+    font-size: 4.2rem !important; }
+  .cont-ganadores-h1 h1 {
+    font-size: 5rem !important;
+    text-align: center; }
+  .s-sorteos h2 {
+    margin-bottom: 20px;
+    font-size: 4.5rem !important; }
+  .cont-sorteos a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0; } }
+
+@media (max-width: 1360px) {
+  .cont-h1-ganadores h1 {
+    font-size: 4.4rem !important;
+    text-align: center; }
+  .t-contacto {
+    margin-top: 32px; }
+  .as-contacto img {
+    display: none; } }
+
+@media (max-width: 1291px) {
+  .cont-texto svg {
+    display: none; }
+  .cont-imbatibles .svg-1 {
+    display: none; }
+  .cont-imbatibles {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center; }
+  .cont-texto h1 {
+    font-size: 6.2rem;
+    margin: 0;
+    margin-left: 40px; }
+  .cont-texto p {
+    margin-left: 40px; } }
+
+@media (max-width: 1285px) {
+  .cont-texto {
+    height: 300px; }
+  .cont-texto h1 {
+    justify-content: center;
+    align-items: center;
+    padding: 0; }
+  .cont-texto p {
+    margin-top: 10px;
+    margin-left: 3rem;
+    padding: 0; }
+  main img {
+    display: none; } }
+
+@media (max-width: 1249px) {
+  .cont-imbatibles {
+    margin: 0;
+    text-align: center; }
+  .ubicados .ubicados-aside {
+    margin-top: 20px; }
+  .cont-ganadores-h1 h1 {
+    font-size: 4rem !important; } }
+
+@media (max-width: 1056px) {
+  .g-icon {
+    display: none; }
+  .g-icon2 {
+    display: none; } }
+
+@media (max-width: 1013px) {
+  .cont-ubicados h1 {
+    font-size: 3.2rem !important; }
+  .section-2 .img-bocata-p h1 {
+    font-size: 8rem !important; }
+  .cont-h1-ganadores h1 {
+    font-size: 3rem !important; }
+  .cont-ganadores-h1 h1 {
+    font-size: 3rem !important; }
+  .cont-imagenes-ganadores {
+    margin-top: -4rem !important; }
+  .cont-imagenes-ganadores .botones-ganadores .flecha {
+    display: none; } }
+
+@media (max-width: 930px) {
+  main {
+    width: 100%; }
+  .cont-texto {
+    margin: 0; }
+  .cont-texto h1 {
+    text-align: center;
+    font-size: 6rem; }
+  .cont-texto p {
+    margin-top: 30px;
+    text-align: center; }
+  .cont-carrousel2 .image-gallery {
+    width: 800px; }
+  .ubicados .ubicados-aside .draw-1 {
+    width: 400px !important; } }
+
+@media (max-width: 820px) {
+  .cont-texto {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 520px !important; }
+  .cont-texto h1 {
+    font-size: 4.5rem; }
+  .cont-imbatibles .s-imbatibles h1 {
+    margin-left: -9rem;
+    font-size: 4.2rem !important;
+    text-align: center !important; }
+  .cont-carrousel2 .image-gallery {
+    width: 700px; }
+  .mapa-iframe-ubicacion {
+    width: 600px; }
+  .cont-btn-carrou-2 {
+    margin: 0;
+    padding: 20px 0px 20px 0px !important; } }
+
+@media (max-width: 772px) {
+  .cont-ubicados {
+    height: 100px !important; }
+  .cont-ubicados h1 {
+    font-size: 2.2rem !important; }
+  .section-2 .img-bocata-p {
+    height: 150px !important; }
+  .section-2 .img-bocata-p h1 {
+    font-size: 4rem !important; }
+  .cont-imbatibles .s-imbatibles h1 {
+    font-size: 3rem !important;
+    margin: 0; }
+  .s-imbatibles {
+    margin: 0;
+    margin-left: 0 !important; }
+  .cont-imbatibles .img-promocion {
+    width: 120px !important; }
+  .cont-carrousel2 .svg-2 {
+    display: none; }
+  .cont-carrousel2 .image-gallery {
+    width: 600px; }
+  .mapa-iframe-ubicacion {
+    width: 600px; }
+  .carousel-mailing .h1-mailing h1 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    justify-self: center;
+    align-self: center; }
+  .section-ingresar-mailing div h1 {
+    font-size: 3.2rem !important; }
+  .as-contacto .t-contacto h1 {
+    font-size: 3rem !important; }
+  .cont-imagenes-ganadores {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 0;
+    height: auto !important; }
+  .cont-imagenes-ganadores .cont-img-btns img {
+    position: relative; }
+  .s-sorteos h2 {
+    text-align: center; }
+  .redes-sociales {
+    flex-wrap: wrap; }
+  footer {
+    flex-wrap: wrap; } }
+
+@media (max-width: 617px) {
+  .cont-texto h1 {
+    margin-left: 0 !important; }
+  .carousel-inner {
+    height: 400px; }
+  .mapa-iframe-ubicacion {
+    width: 450px; }
+  .as-contacto .cont-form form {
+    display: flex;
+    align-items: center;
+    width: 400px !important; }
+  .as-contacto .cont-form form input {
+    width: 400px; }
+  .as-contacto .cont-form form form input, .as-contacto .cont-form form textarea {
+    width: 400px; } }
+
+@media (max-width: 577px) {
+  .cont-texto h1 {
+    font-size: 3.5rem !important; } }
+
+@media (max-width: 531px) {
+  .cont-texto {
+    height: 360px !important; }
+  .cont-ubicados {
+    height: 72px !important; }
+  .cont-ubicados h1 {
+    font-size: 1.6rem !important; }
+  .encabezado-dudas-mailing {
+    height: 140px !important; }
+  .encabezado-dudas-mailing h1 {
+    font-size: 4.2rem !important; }
+  .image-gallery {
+    width: 400px !important; }
+  .section-ingresar-mailing div h1 {
+    font-size: 2.2rem !important; }
+  .contactarnos h1 {
+    font-size: 3rem !important;
+    text-align: center; }
+  .contactarnos p {
+    font-size: 1rem !important; }
+  .as-contacto .t-contacto h1 {
+    font-size: 2.2rem !important; } }
+
+@media (max-width: 497px) {
+  .mapa-iframe-ubicacion {
+    width: 360px;
+    height: 340px; }
+  .cont-texto h1 {
+    font-size: 2.6rem !important; }
+  .ubicados .ubicados-aside h1 {
+    font-size: 20px !important; }
+  .ubicados .ubicados-aside .h1-esperamos {
+    font-size: 1.4rem !important; }
+  .cont-imbatibles .s-imbatibles h1 {
+    font-size: 2rem !important; }
+  .cont-carrousel2 .image-gallery {
+    width: 400px; }
+  .cont-btn-carrou-2 button {
+    font-size: 1rem !important; }
+  .ubicados .ubicados-aside .draw-1 {
+    width: 300px !important; }
+  .s-sorteos h2 {
+    font-size: 4rem !important; }
+  .s-sorteos p {
+    font-size: 1rem !important; }
+  .cont-imagenes-ganadores .botones-ganadores p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem !important;
+    margin: 0;
+    width: 200px !important; }
+  .cont-imagenes-ganadores .botones-ganadores {
+    justify-content: center;
+    align-items: center;
+    z-index: 99999 !important;
+    width: 100px !important; }
+  .body-ganadores {
+    z-index: -1 !important; }
+  .s-sorteos img {
+    z-index: 0 !important; }
+  .btn-ganadores-img {
+    font-size: 1.6rem !important;
+    width: 280px;
+    z-index: 1 !important; } }
+
+@media (max-width: 400px) {
+  .cont-carrousel2 .image-gallery {
+    width: 300px; }
+  .carousel-mailing .h1-mailing p {
+    text-align: center; }
+  .image-gallery {
+    width: 300px !important; }
+  .contactarnos p {
+    margin-top: 20px;
+    text-align: center; }
+  .as-contacto .t-contacto h1 {
+    font-size: 1.6rem !important; }
+  .as-contacto .cont-form form p {
+    font-size: 14px !important; }
+  .as-contacto .cont-form form {
+    width: 200px !important; }
+  .as-contacto .cont-form form input {
+    width: 320px; }
+  .as-contacto .cont-form form form input, .as-contacto .cont-form form textarea {
+    width: 320px; } }
+
 /* BARRA DE NAVEGACION */
 .navbar {
   background-color: #e30000 !important;
@@ -31,6 +320,9 @@
   text-align: center;
   --bs-nav-link-hover-color:rgb(255 255 255 / 80%); }
 
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #ffffffcc; }
+
 .nav-link:focus {
   color: #fff; }
 
@@ -51,23 +343,8 @@
   margin-right: 5rem; }
 
 /* INICIO-CARROUSEL 1 */
-.cont-cont-carrousel {
-  background-color: #bd0000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px; }
-
-.cont-carrousel {
-  width: 1600px;
-  height: auto; }
-
-.carousel-item {
-  width: 100%;
-  height: 650px; }
-  .carousel-item img {
-    height: 100%;
-    object-fit: cover; }
+.cont-carousel {
+  border: solid 1px; }
 
 main {
   display: flex;
@@ -87,18 +364,13 @@ main {
 
 .cont-texto {
   margin-top: 20px;
-  margin-left: 89px;
+  margin-left: -4rem;
   padding: 32px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 860px;
   height: 600px; }
-  .cont-texto svg {
-    position: absolute;
-    right: 0;
-    bottom: -42rem;
-    z-index: -1; }
   .cont-texto .boton {
     font-family: "Poppins" sans-serif;
     font-weight: 500;
@@ -164,41 +436,21 @@ main {
     height: auto;
     z-index: 1; }
 
-.cont-cont-carrousel2 {
+.cont-carrousel2 {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1; }
-  .cont-cont-carrousel2 .svg-2 {
+  .cont-carrousel2 .svg-2 {
     position: absolute;
     width: 100%;
     right: 0;
     bottom: -5rem;
     z-index: -1; }
-  .cont-cont-carrousel2 .carousel-control-next-icon, .cont-cont-carrousel2 .carousel-control-prev-icon {
-    background-color: #ffffffa6;
-    border-radius: 20px; }
-  .cont-cont-carrousel2 .carousel-control-next-icon {
-    color: black;
-    background-color: black;
-    padding: 10px; }
-  .cont-cont-carrousel2 .carousel-control-prev-icon {
-    color: black;
-    background-color: black;
-    padding: 10px; }
-  .cont-cont-carrousel2 .carousel-item {
-    border: solid 2px;
-    width: 1000px;
-    height: auto;
-    transition: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    box-shadow: 41px 6px 2px 4px rgba(0, 0, 0, 0.75);
+  .cont-carrousel2 .image-gallery {
+    position: relative;
     z-index: 1; }
-    .cont-cont-carrousel2 .carousel-item img {
-      height: 100%;
-      object-fit: cover; }
 
 .cont-btn-carrou-2 {
   position: relative;
@@ -391,7 +643,8 @@ footer {
 .as-contacto {
   position: relative;
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
   .as-contacto svg {
     position: absolute;
     z-index: -1;
@@ -511,6 +764,10 @@ footer {
       .as-postulate .cont-form2 form .boton-enviar:active {
         box-shadow: 1px 1px 2px #000; }
 
+.fondo-mailing {
+  background-color: #f2f2f2;
+  z-index: -1; }
+
 .background-mailing {
   background: url("https://res.cloudinary.com/dfnton7oq/image/upload/v1714697324/samples/bocata-imgs/434601893_814535467370693_6833600161098087434_n_rqx3su.jpg");
   height: 500px;
@@ -550,14 +807,18 @@ footer {
       border: solid 2px #202020;
       border-radius: 10px;
       padding: 10px;
-      box-shadow: 6px 4px 2px 2px black; }
+      border-style: none;
+      border: solid 1px #000;
+      box-shadow: 6px 4px 2px 2px black;
+      z-index: 999999; }
       .carousel-mailing .h1-mailing .boton-imbatible:active {
         box-shadow: 1px 1px 1px 1px black; }
   .carousel-mailing .draw-4 {
     position: absolute;
     width: 500px;
     left: 5rem;
-    bottom: 40px; }
+    bottom: 40px;
+    z-index: 10; }
   .carousel-mailing .image-gallery-svg {
     width: 32px; }
   .carousel-mailing .image-gallery-icon:hover {
@@ -571,13 +832,14 @@ footer {
     outline: red; }
 
 .image-gallery {
-  width: 900px; }
+  width: 900px;
+  z-index: 1; }
 
 .svg-mailing {
   position: absolute;
   left: 0;
   bottom: -4.2rem;
-  z-index: -1; }
+  z-index: 1; }
 
 .section-ingresar-mailing {
   position: relative;
@@ -643,6 +905,192 @@ footer {
     border: solid 2px #202020;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 6px 4px 2px 2px black; }
+    border-style: none;
+    border: solid 1px #000;
+    box-shadow: 6px 4px 2px 2px black;
+    z-index: 999999; }
     .contactarnos button:active {
       box-shadow: 1px 1px 1px 1px black; }
+
+.body-ganadores {
+  background: linear-gradient(#f9f9f9, #e8e8e8);
+  z-index: -2; }
+
+.cont-h1-ganadores {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  z-index: 1; }
+  .cont-h1-ganadores svg {
+    position: absolute;
+    top: -5rem;
+    right: 0;
+    width: 100%;
+    z-index: -1; }
+  .cont-h1-ganadores .g-icon {
+    width: 100px;
+    z-index: 2; }
+  .cont-h1-ganadores .g-icon2 {
+    width: 100px;
+    z-index: 2; }
+  .cont-h1-ganadores h1 {
+    font-size: 5.2rem;
+    font-weight: 700;
+    z-index: 1; }
+
+.s-sorteos {
+  position: relative;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around; }
+  .s-sorteos .svg-s-1 {
+    position: absolute;
+    top: -8rem;
+    right: 0;
+    z-index: 0; }
+  .s-sorteos svg {
+    position: absolute;
+    left: 0;
+    bottom: 0rem;
+    z-index: 0; }
+  .s-sorteos .cont-sorteos {
+    width: 850px;
+    z-index: 1; }
+    .s-sorteos .cont-sorteos .btn-ganadores {
+      margin-top: 10px;
+      background-color: #ec0000;
+      color: #fff;
+      font-size: 1.6rem;
+      font-weight: 600;
+      border: solid 2px #202020;
+      border-radius: 10px;
+      padding: 10px;
+      border-style: none;
+      border: solid 1px #000;
+      box-shadow: 6px 4px 2px 2px black;
+      z-index: 999999; }
+      .s-sorteos .cont-sorteos .btn-ganadores:active {
+        box-shadow: 1px 1px 1px 1px black; }
+  .s-sorteos h2 {
+    font-size: 5.2rem;
+    font-weight: 700; }
+  .s-sorteos p {
+    font-size: 1.4rem;
+    font-weight: 600; }
+  .s-sorteos img {
+    position: relative;
+    width: 700px;
+    bottom: 5rem;
+    z-index: 1; }
+
+.cont-ganadores-h1 {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px; }
+  .cont-ganadores-h1 h1 {
+    font-size: 6.2rem;
+    font-weight: 700; }
+
+.cont-imagenes-ganadores {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  height: 40rem; }
+  .cont-imagenes-ganadores svg {
+    position: absolute;
+    left: 0;
+    bottom: -4rem;
+    z-index: 1; }
+  .cont-imagenes-ganadores .botones-ganadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    height: 32rem; }
+    .cont-imagenes-ganadores .botones-ganadores p {
+      font-size: 1.4rem;
+      font-weight: 600;
+      width: 400px; }
+    .cont-imagenes-ganadores .botones-ganadores .btn-ganadores-img {
+      font-size: 2.2rem;
+      font-weight: 600;
+      background-color: red;
+      color: #fff;
+      border-radius: 9px;
+      padding: 10px;
+      border-style: none;
+      border: solid 2px #000;
+      cursor: pointer;
+      box-shadow: 0 0.255em  #000;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      z-index: 1; }
+      .cont-imagenes-ganadores .botones-ganadores .btn-ganadores-img:hover {
+        background-color: #db0303; }
+      .cont-imagenes-ganadores .botones-ganadores .btn-ganadores-img:active {
+        transform: translateY(4px);
+        box-shadow: 0 0 0 black; }
+      .cont-imagenes-ganadores .botones-ganadores .btn-ganadores-img:focus {
+        background-color: #740000; }
+    .cont-imagenes-ganadores .botones-ganadores .flecha {
+      position: absolute;
+      left: 46rem;
+      width: 50px; }
+  .cont-imagenes-ganadores .cont-img-btns {
+    display: flex;
+    align-items: center;
+    position: relative; }
+    .cont-imagenes-ganadores .cont-img-btns .img-flecha {
+      position: absolute;
+      width: 50px;
+      left: -20rem;
+      top: 14rem;
+      border: none;
+      box-shadow: none;
+      cursor: auto; }
+    .cont-imagenes-ganadores .cont-img-btns img {
+      position: relative;
+      border: solid 5px #000;
+      box-shadow: 10px 10px 5px #000;
+      width: 500px;
+      cursor: pointer;
+      z-index: 1; }
+
+.cont-404 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: solid 2px; }
+  .cont-404 h1 {
+    font-size: 5.2rem;
+    font-weight: 650; }
+  .cont-404 p {
+    font-size: 2.2rem;
+    font-weight: 600; }
+  .cont-404 img {
+    width: 600px;
+    margin-left: 4rem; }
+  .cont-404 .btn-err-404 {
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: red;
+    color: #fff;
+    border-radius: 9px;
+    padding: 10px;
+    border-style: none;
+    border: solid 2px #000;
+    cursor: pointer;
+    box-shadow: 0 0.255em  #000;
+    transition: transform 0.1s ease, box-shadow 0.2s ease; }
+    .cont-404 .btn-err-404:hover {
+      background-color: #db0303; }
+    .cont-404 .btn-err-404:active {
+      transform: translateY(4px);
+      box-shadow: 0 0 0 black; }

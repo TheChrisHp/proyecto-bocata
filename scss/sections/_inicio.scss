@@ -1,28 +1,11 @@
 @import './variables';
 
 /* INICIO-CARROUSEL 1 */
-.cont-cont-carrousel{
-    background-color: rgb(189, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .cont-carrousel{
-    width: 1600px;
-    height: auto;
-  }
+.cont-carousel{
+  border: solid 1px;
+}
 
-  .carousel-item{
-    width: 100%;
-    height: 650px;
-    
-   img{
-    height: 100%;
-    object-fit: cover;
-   }
-  }  
+
 // MAIN
 
 main{
@@ -48,20 +31,13 @@ padding: 0;
 
 .cont-texto{
   margin-top: 20px;
-  margin-left: 89px;
+  margin-left: -4rem;
   padding: 32px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 860px;
   height: 600px;
-
-  svg{
-    position: absolute;
-    right: 0;
-    bottom: -42rem;
-    z-index: -1;
-  }
 
   .boton {
     font-family: "Poppins" sans-serif;
@@ -115,12 +91,13 @@ padding: 0;
   flex-wrap: wrap;
   margin-bottom: 2rem;
   // border-top: solid 4px;
-  // border-bottom: solid 4px;
+  // border-bottom: solid 1px;
   z-index: 1111;
   overflow: hidden;
   // border-bottom: solid 2px;
 
   .svg-1{
+    
     position: absolute;
     width: 2000px;
     // height: 200px;
@@ -155,7 +132,7 @@ padding: 0;
 
 // CARROUSEL 2 SECTION 3
 
-.cont-cont-carrousel2{
+.cont-carrousel2{
   position: relative;
   display: flex;
   justify-content: center;
@@ -165,45 +142,18 @@ padding: 0;
   .svg-2{
     position: absolute;
     width: 100%;
-    // height: 200px;
     right: 0;
     bottom: -5rem;
     z-index: -1;
   }
 
-  .carousel-control-next-icon, .carousel-control-prev-icon{
-    background-color: #ffffffa6;
-    border-radius: 20px;
-  }
-
-  .carousel-control-next-icon{
-    color: black;
-    background-color: black;
-    padding: 10px;
-  }
-
-  .carousel-control-prev-icon{
-    color: black;
-    background-color: black;
-    padding: 10px;
-  }
-
-  .carousel-item{
-    border: solid 2px;
-    width: 1000px;
-    height: auto;
-    transition: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    box-shadow: 41px 6px 2px 4px rgba(0, 0, 0, 0.75);
+  .image-gallery{
+    position: relative;
     z-index: 1;
-    
-
-    img{
-      height: 100%;
-      object-fit: cover;
-    }
   }
+
+  
+  
 }
 
 .cont-btn-carrou-2{

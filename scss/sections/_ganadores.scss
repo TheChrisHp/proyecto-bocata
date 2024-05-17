@@ -1,0 +1,167 @@
+.body-ganadores{
+    background: linear-gradient(#f9f9f9, #e8e8e8);
+    z-index: -2;
+}
+
+.cont-h1-ganadores{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    z-index: 1;
+
+    svg{
+        position: absolute;
+        top: -5rem;
+        right: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .g-icon{
+        width: 100px;
+        z-index: 2;
+    }
+
+    .g-icon2{
+        width: 100px;
+        z-index: 2;
+    }
+    
+    h1{
+        font-size: 5.2rem;
+        font-weight: 700;
+        z-index: 1;
+    }
+}
+
+.s-sorteos{
+    position: relative;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+
+    .svg-s-1{
+        position: absolute;
+        top: -8rem;
+        right: 0;
+        z-index: 0;
+    }
+
+    svg{
+        position: absolute;
+        left: 0;
+        bottom: 0rem;
+        z-index: 0;
+    }
+
+    .cont-sorteos{
+        width: 850px;
+        z-index: 1;
+
+        .btn-ganadores{
+            margin-top: 10px;
+            @include boton();
+        }
+    }
+    h2{
+        font-size: 5.2rem;
+        font-weight: 700;
+    }
+
+    p{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    img{
+        position: relative;
+        width: 700px;
+        bottom: 5rem;
+        z-index: 1;
+    }
+}
+
+.cont-ganadores-h1{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+
+    h1{
+        font-size: 6.2rem;
+        font-weight: 700;
+
+    }
+}
+
+.cont-imagenes-ganadores{
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40rem;
+
+    svg{
+        position: absolute;
+        left: 0;
+        bottom: -4rem;
+        z-index: 1;
+    }
+    
+    .botones-ganadores{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 10px;
+        height: 32rem;
+
+        p{
+            // text-align: center;
+            font-size: 1.4rem;
+            font-weight: 600;
+            width: 400px;
+        }
+
+        .btn-ganadores-img{
+            @include boton3d();
+            z-index: 1;
+        }
+
+        .flecha{
+            position: absolute;
+            left: 46rem;
+            width: 50px;
+        }
+    }
+
+    .cont-img-btns{
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        .img-flecha{
+            position: absolute;
+            width: 50px;
+            left: -20rem;
+            top: 14rem;
+            border: none;
+            box-shadow: none;
+            cursor: auto;
+        }
+
+        img{
+            position: relative;
+            border: solid 5px #000;
+            box-shadow: 10px 10px 5px #000;
+            width: 500px;
+            cursor: pointer;
+            z-index: 1;
+        }
+    }
+    
+}
