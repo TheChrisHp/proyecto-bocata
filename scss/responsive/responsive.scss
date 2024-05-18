@@ -217,8 +217,13 @@
         text-align: center !important;
     }
 
-    .cont-carrousel2 .image-gallery{
-        width: 700px;
+    .cont-carousel{
+        height: 200px;
+        overflow: hidden;
+
+        img{
+            height: 40% !important;
+        }
     }
 
     .mapa-iframe-ubicacion{
@@ -441,6 +446,10 @@
         width: 300px !important;
     }
 
+    .cont-imbatibles{
+        margin-bottom: 0 !important;
+    }
+
     //GANADORES
     .s-sorteos h2{
         font-size: 4rem !important;
@@ -523,5 +532,28 @@
 
     .as-contacto .cont-form form form input, .as-contacto .cont-form form textarea{
         width: 320px;
+    }
+}
+
+@media (max-width: 375px){
+    .mapa-iframe-ubicacion{
+        width: 300px;
+    }
+
+    .ubicados .ubicados-aside .draw-1{
+        width: 250px !important;
+        height: auto !important;
+    }
+
+    .section-2 .img-bocata-p h1{
+        font-size: 2.5rem !important;
+    }
+
+    .section-2 .img-bocata-p{
+        height: 100px !important;
+    }
+
+    .cont-imbatibles .img-promocion{
+        width: 89px !important;
     }
 }

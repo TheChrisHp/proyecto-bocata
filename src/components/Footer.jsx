@@ -42,6 +42,7 @@ const Footer = () =>{
         <div className='itemf-4'>
         </div>
     </footer>
+
     <div className='redes-sociales'>
     <h1>
         ¡Pudes también encontrarnos en nuestras Redes Sociales!

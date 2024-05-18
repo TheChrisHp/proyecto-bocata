@@ -1,10 +1,9 @@
-@import './variables';
   footer{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #ab0000;
-    height: 200px;
   
     img{
       width: 150px;
@@ -78,21 +77,21 @@
         }
       }
     }
-  }
-
-  .itemf-3{
-    text-decoration: none;
-    list-style: none;
-    margin-top: 32px;
-
-    ul{
-      display: flex;
-      flex-direction: column;
+    .itemf-3{
+      text-decoration: none;
       list-style: none;
-
-      a{
-        color: white;
-        text-decoration: none;
+      margin-top: 32px;
+     
+  
+      ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+  
+        a{
+          color: white;
+          text-decoration: none;
+        }
       }
     }
   }
@@ -101,14 +100,16 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   background-color: #ab0000;
-  border-top: solid 0.1px #414141d2;
+  border-top: solid 1px;
 
   h1{
     color: $c_blanco;
     font-size: 1.2rem;
     margin-top: 20px;
+    text-align: center;
   }
 
   ul{
@@ -139,7 +140,43 @@
   padding: 5px;
 
   p{
+    text-align: center;
     color: $c_blanco;
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 700px){
+  footer img{
+    width: 150px;
+  }
+
+  .cont-texto p{
+    padding: 0;
+    margin: 0;
+  }
+
+  .redes-sociales ul{
+    padding: 0;
+  }
+
+  footer .itemf-3 ul{
+    padding: 2rem;
+  }
+
+  footer .itemf-2{
+    width: 220px;
+  }
+
+  footer .itemf-2 ul{
+    padding: 0;
+  }
+
+  footer .itemf-1 ul{
+    padding: 0;
+  }
+
+  footer{
+    justify-content: center;
   }
 }
