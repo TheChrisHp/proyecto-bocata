@@ -354,11 +354,14 @@
   font-weight: 500;
   font-size: 20px;
   color: #ffffff;
-  margin-right: 32px; }
+  margin-right: 12px; }
 
 .navbar-expand-lg .navbar-collapse {
   flex-direction: row-reverse;
-  margin-right: 5rem; }
+  margin-right: 6rem; }
+
+.nav-link a {
+  margin-right: 10px; }
 
 /* INICIO-CARROUSEL 1 */
 .cont-carousel {
@@ -809,7 +812,7 @@ footer {
   z-index: -1; }
 
 .background-mailing {
-  background: url("https://res.cloudinary.com/dfnton7oq/image/upload/v1714697324/samples/bocata-imgs/434601893_814535467370693_6833600161098087434_n_rqx3su.jpg");
+  background: url("https://res.cloudinary.com/dfnton7oq/image/upload/v1715971266/samples/bocata-imgs/434601893_814535467370693_6833600161098087434_n_rqx3su_pdxuno.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover; }

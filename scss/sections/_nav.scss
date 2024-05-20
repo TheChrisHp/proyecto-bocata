@@ -55,10 +55,15 @@
     font-weight: 500;
     font-size: 20px;
     color: #ffffff;
-    margin-right: 32px;
+    margin-right: 12px;
+    // margin: 0;
   }
   
   .navbar-expand-lg .navbar-collapse{
     flex-direction: row-reverse;
-    margin-right: 5rem;
+    margin-right: 6rem;
+  }
+
+  .nav-link a{
+    margin-right: 10px;
   }
