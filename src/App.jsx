@@ -16,8 +16,8 @@ import '@mantine/carousel/styles.css';
 
 function App() {
   return (
+  <Router>
   <MantineProvider>
-    <Router>
       <Nav />
       <ScrollArriba />
       <Routes>
@@ -27,11 +27,10 @@ function App() {
         <Route path='/Mailing' element={<Mailing/>}/>
         <Route path='/Ganadores' element={<Ganadores />}/>
         <Route path='*' element={<Error404/>}/>
-        {/* Agrega más rutas según tus necesidades */}
       </Routes>
       <Footer/ >
-    </Router>
   </MantineProvider>
+  </Router>
     
   );
 }
