@@ -1,5 +1,10 @@
 # Creado por TheChrisHp
 
+# Creado a modo de practica y posible ayuda a la empresa
+-El proyecto inicio por muchas quejas de la página original de Bocata, por lo que decidi crear una version propia
+y mejorada para aquellos usuarios que quieran tener una buena experiencia con la página de Bocata UY.
+#
+
 
 # Realizado con React + Vite
 
