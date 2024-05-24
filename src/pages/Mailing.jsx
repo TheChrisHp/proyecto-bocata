@@ -37,10 +37,11 @@ const Mailing = () =>{
         <Helmet>
             <title>Supermercado Bocata | Mailing</title>
         </Helmet>
-        <div className="background-mailing img-fluid">
+        <div className="cont-background-mailing">
+            <img src="https://res.cloudinary.com/dfnton7oq/image/upload/v1715971266/samples/bocata-imgs/434601893_814535467370693_6833600161098087434_n_rqx3su_pdxuno.jpg" alt="" />
         </div>
         <div className="main-mailing">
-            {/* <h1>¡TENEMOS NUEVO <span style={{background:"red", color: "white"}}>MAILING!</span></h1> */}
+            
         </div>
 
 <section className="carousel-mailing d-flex flex-wrap" id='mailing-carou'>

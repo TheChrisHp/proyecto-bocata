@@ -748,7 +748,8 @@ footer {
   position: relative;
   display: flex;
   justify-content: space-evenly;
-  flex-direction: row-reverse; }
+  flex-direction: row-reverse;
+  flex-wrap: wrap; }
   .as-postulate svg {
     position: absolute;
     z-index: -1;
@@ -759,10 +760,10 @@ footer {
     align-items: center;
     flex-direction: column; }
     .as-postulate .t-postulate h1 {
-      font-size: 4.4rem;
+      font-size: 4rem;
       font-weight: 700; }
   .as-postulate img {
-    width: 800px;
+    width: 40vw;
     height: 650px; }
   .as-postulate .cont-form2 {
     margin-left: 60px; }
@@ -771,7 +772,7 @@ footer {
       flex-direction: column;
       justify-content: space-around;
       padding: 12px;
-      width: 600px;
+      width: 36vw;
       height: 800px; }
       .as-postulate .cont-form2 form input {
         padding: 8px; }
@@ -807,15 +808,39 @@ footer {
       .as-postulate .cont-form2 form .boton-enviar:active {
         box-shadow: 1px 1px 2px #000; }
 
+@media (max-width: 1243px) {
+  .as-postulate img {
+    display: none; }
+  form {
+    width: 100% !important; } }
+
+@media (max-width: 736px) {
+  .as-postulate .t-postulate h1 {
+    font-size: 3rem; } }
+
+@media (max-width: 552px) {
+  .as-postulate .t-postulate h1 {
+    font-size: 2.5rem; }
+  .as-postulate .cont-form2 {
+    justify-content: center;
+    margin: 0; } }
+
+@media (max-width: 459px) {
+  .as-postulate .t-postulate h1 {
+    font-size: 2rem; } }
+
 .fondo-mailing {
   background-color: #f2f2f2;
   z-index: -1; }
 
-.background-mailing {
-  background: url("https://res.cloudinary.com/dfnton7oq/image/upload/v1715971266/samples/bocata-imgs/434601893_814535467370693_6833600161098087434_n_rqx3su_pdxuno.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover; }
+.cont-background-mailing {
+  height: 30vw;
+  border: solid 2px;
+  overflow: hidden; }
+  .cont-background-mailing img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; }
 
 .main-mailing {
   display: flex;

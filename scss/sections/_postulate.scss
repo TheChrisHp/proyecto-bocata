@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
 
     svg{
         position: absolute;
@@ -17,13 +18,13 @@
         flex-direction: column;
 
         h1{
-            font-size: 4.4rem;
+            font-size: 4rem;
             font-weight: 700;
         }
     }
 
     img{
-        width: 800px;
+        width: 40vw;
         height: 650px;
     }
 
@@ -35,7 +36,7 @@
             flex-direction: column;
             justify-content: space-around;
             padding: 12px;
-            width: 600px;
+            width: 36vw;
             height: 800px;
 
             input{
@@ -85,5 +86,38 @@
                 box-shadow: 1px 1px 2px #000;
             }
         }
+    }
+}
+
+@media (max-width: 1243px ){
+    .as-postulate img{
+        display: none;
+    }
+
+    form{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 736px){
+    .as-postulate .t-postulate h1{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 552px){
+    .as-postulate .t-postulate h1{
+        font-size: 2.5rem;
+    }
+
+    .as-postulate .cont-form2{
+        justify-content: center;
+        margin: 0;
+    }
+}
+
+@media (max-width: 459px){
+    .as-postulate .t-postulate h1{
+        font-size: 2rem;
     }
 }

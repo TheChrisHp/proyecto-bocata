@@ -3,13 +3,17 @@
     z-index: -1;
 }
 
-.background-mailing{
-    background: url('https://res.cloudinary.com/dfnton7oq/image/upload/v1715971266/samples/bocata-imgs/434601893_814535467370693_6833600161098087434_n_rqx3su_pdxuno.jpg');
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+.cont-background-mailing{
+    height: 30vw;
+    border: solid 2px;
+    overflow: hidden;
 
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
 .main-mailing{
     display: flex;
     justify-content: center;
