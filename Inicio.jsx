@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
-import Demo from '../components/carousel';
+import Demo from './src/components/carousel';
 
 const Inicio = () => {
 

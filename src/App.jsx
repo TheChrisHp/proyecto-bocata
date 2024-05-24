@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Nav from './components/Nav';
 import Contacto from './pages/Contacto';
 import Footer from './components/Footer';
-import Inicio from './pages/Inicio';
+import Inicio from '../Inicio';
 import Postulate from './pages/Postulate';
 import Mailing from './pages/Mailing';
 import ScrollArriba from './components/scrollarriba';
