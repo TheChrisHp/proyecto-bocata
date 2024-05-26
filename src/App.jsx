@@ -1,5 +1,5 @@
+import { BrowserRouter as Router, Routes, Route, BrowserRouter} from 'react-router-dom';
 import Inicio from './Inicio';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Nav from './components/Nav';
 import Contacto from './pages/Contacto';
 import Footer from './components/Footer';
@@ -15,12 +15,12 @@ import '@mantine/carousel/styles.css';
 
 function App() {
   return (
-  <Router>
+ <BrowserRouter>
   <MantineProvider>
       <Nav />
       <ScrollArriba />
       <Routes>
-        <Route path="/Inicio" element={<Inicio />} />
+        <Route path="/" element={<Inicio />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path='/Postulate' element={<Postulate/>}/>
         <Route path='/Mailing' element={<Mailing/>}/>
@@ -29,7 +29,7 @@ function App() {
       </Routes>
       <Footer/ >
   </MantineProvider>
-  </Router>
+</BrowserRouter>   
   );
 }
 
