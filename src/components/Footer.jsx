@@ -5,7 +5,7 @@ const Footer = () =>{
     <>
     <footer>
         <Link to="./Inicio">
-        <img src='../resources/bocata-logo.png' alt="logo-bocata-footer" />
+        <img src='./bocata-logo.png' alt="logo-bocata-footer" />
         </Link>
         <div className='itemf-3'>
             <ul>
@@ -19,7 +19,7 @@ const Footer = () =>{
         
         <div className='itemf-1'>
         <a>
-        <img className='icon-footer' src="../resources/horario.png" alt="horario-icono-footer" />
+        <img className='icon-footer' src="./horario.png" alt="horario-icono-footer" />
             Horarios
         </a>
             <ul>
@@ -28,12 +28,12 @@ const Footer = () =>{
         </div>
         <div className='itemf-2'>
             <a>
-            <img className='icon-footer' src="../resources/ubicacion.png" alt="ubicacion-icono-footer" />
+            <img className='icon-footer' src="./ubicacion.png" alt="ubicacion-icono-footer" />
                 Ubicacion
             </a>
             <ul>
                 <li>Av. 8 de octubre 4130, esq. Pascual Paladino.</li>
-                <a><img src="./resources/tel-icon.png" alt="tel-icon" />
+                <a><img src="./tel-icon.png" alt="tel-icon" />
                 Tel. 2509 7777
                 </a>
             </ul>
@@ -48,13 +48,13 @@ const Footer = () =>{
         ¡Pudes también encontrarnos en nuestras Redes Sociales!
     </h1>
     <ul>
-        <li><a> <img src="./resources/ig-icon.png" alt="instagram-icon" />
+        <li><a> <img src="./ig-icon.png" alt="instagram-icon" />
                 Instagram
         </a></li>
-        <li><a> <img src="./resources/fb-icon.png" alt="facebook-icon" />
+        <li><a> <img src="./fb-icon.png" alt="facebook-icon" />
                 Facebook
         </a></li>
-        <li><a> <img src="./resources/tiktok-icon.png" alt="tiktok-icon" />
+        <li><a> <img src="./tiktok-icon.png" alt="tiktok-icon" />
                 Tiktok
         </a></li>
         </ul>

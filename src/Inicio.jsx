@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
-import Demo from './src/components/carousel';
+import Demo from './components/carousel';
 
 const Inicio = () => {
 
@@ -49,7 +49,6 @@ const Inicio = () => {
         <section className="cont-texto">
         <h1>Si elegis Supermercado, elegís <span style={{color: "#D40000"}}>Bocata</span></h1>
         <p>Nuestro compromiso es contigo.</p>
-        {/* <button className="boton">Boton</button> */}
         </section>
         <img src="https://res.cloudinary.com/dfnton7oq/image/upload/v1714699203/samples/bocata-imgs/bocata-logo_wlktwj.png" alt="" />
       </main>
@@ -69,7 +68,7 @@ const Inicio = () => {
     <section className='s-imbatibles' id='imb'>
       <h1><span>NO</span> te pierdas de los precios <span style={{color: "white", backgroundColor:"red"}}>¡IMBATIBLES!</span></h1>
     </section>
-    <img className='img-promocion' src="../resources/descuento.png" alt="promocion-imagen" />
+    <img className='img-promocion' src="/assets/descuento.png" alt="promocion-imagen" />
     </div>
 
     {/* CARROUSEL 2 */}
@@ -95,7 +94,7 @@ const Inicio = () => {
         <h1>Estamos ubicados en 8 de Octubre 4130
           esq. Pascual Paladino.
         </h1>
-        <img className='draw-1' src="./resources/draw-1.svg" alt="draw-1-ubicacion" />
+        <img className='draw-1' src="./draw-1.svg" alt="draw-1-ubicacion" />
         <h1 className='h1-esperamos'>¡Te esperamos!, no olvides consultar nuestro <span style={{background:"red", color:"white"}}>MAILING</span></h1>
         <Link to="/mailing#mailing-carou">
           <button className='btn-mailing'>Ver Mailing</button>

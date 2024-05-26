@@ -85,7 +85,7 @@ const Postulate = () =>{
             </svg>  
             <div className="t-postulate">
                 <h1>¡Envíanos tu Solicitud!</h1>
-                <img src="./resources/draw-3.svg" alt="draw-2" />
+                <img src="./draw-3.svg" alt="draw-2" />
             </div>
             <div className="cont-form2">
                 <form onSubmit={handleFormSubmit} method="get">

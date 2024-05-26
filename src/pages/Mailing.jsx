@@ -56,7 +56,7 @@ const Mailing = () =>{
     </button>
     </Link>
     </div>
-    <img className='draw-4' src="./resources/draw-4.svg" alt="draw 4" />
+    <img className='draw-4' src="./draw-4.svg" alt="draw 4" />
     <svg className='svg-mailing' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path fill="#c70000" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,74.7C384,96,480,128,576,128C672,128,768,96,864,101.3C960,107,1056,149,1152,138.7C1248,128,1344,64,1392,32L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
     </svg>
@@ -90,7 +90,7 @@ const Mailing = () =>{
         </Link>
     </div>
     <div className='cont-draw'>
-        <img className='img-fluid' src="./resources/draw-6.svg" alt="" />
+        <img className='img-fluid' src="./draw-6.svg" alt="" />
     </div>
 </div>
 </body>
