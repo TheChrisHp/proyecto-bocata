@@ -35,9 +35,9 @@ const ganadores = () =>{
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#c90000" fill-opacity="1" d="M0,64L120,58.7C240,53,480,43,720,64C960,85,1200,139,1320,165.3L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
             </svg>
-                <img className="g-icon d-md img-fluid" src="./ganador-icon.png" alt="ganador-icon" />
+                <img className="g-icon d-md img-fluid" src="./assets/ganador-icon.png" alt="ganador-icon" />
                 <h1 className="h1">¡GANADORES  DE <span style={{background:'red', color:'white'}}>SORTEOS!</span></h1>
-                <img className="g-icon2 img-fluid" src="./ganador-icon.png" alt="ganador-icon" />
+                <img className="g-icon2 img-fluid" src="./assets/ganador-icon.png" alt="ganador-icon" />
             </div>
             <section className="s-sorteos d-flex flex-wrap">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -50,7 +50,7 @@ const ganadores = () =>{
                 <button className="btn-ganadores">Ver GANADORES</button>
                 </Link>
                 </div>
-                <img className="img-fluid" src="./draw-7.svg" alt="draw-7" />
+                <img className="img-fluid" src="./assets/draw-7.svg" alt="draw-7" />
             </section>
 
         <div className="cont-ganadores-h1" id="clase-ganadores">
@@ -64,13 +64,13 @@ const ganadores = () =>{
 
             <p>Participa en nuestras redes sociales para tener probabilidades de ganar en un sorteo!</p>
 
-            <button onClick={() =>{ mostrarImg('https://res.cloudinary.com/dfnton7oq/image/upload/v1714844115/samples/bocata-imgs/ganador-sorteo-1_n4pgwt.png', 'primero')}} className={`btn-ganadores-img ${botonActivo === 'primero' ? 'activo' : ''}`}>FEB/MAR 2024 {botonActivo === 'primero' && <img src='./flecha-img.png' className='flecha'/>}</button>
+            <button onClick={() =>{ mostrarImg('https://res.cloudinary.com/dfnton7oq/image/upload/v1714844115/samples/bocata-imgs/ganador-sorteo-1_n4pgwt.png', 'primero')}} className={`btn-ganadores-img ${botonActivo === 'primero' ? 'activo' : ''}`}>FEB/MAR 2024 {botonActivo === 'primero' && <img src='./assets/flecha-img.png' className='flecha'/>}</button>
 
-            <button onClick={() =>{ mostrarImg('https://res.cloudinary.com/dfnton7oq/image/upload/v1714844155/samples/bocata-imgs/mes-3-1_nfzorw.png', 'segundo')}} className={`btn-ganadores-img ${botonActivo === 'segundo' ? 'activo' : ''}`}>DIC 2023 - ENE 2024 {botonActivo === 'segundo' && <img src='./flecha-img.png' className='flecha'/>}</button>
+            <button onClick={() =>{ mostrarImg('https://res.cloudinary.com/dfnton7oq/image/upload/v1714844155/samples/bocata-imgs/mes-3-1_nfzorw.png', 'segundo')}} className={`btn-ganadores-img ${botonActivo === 'segundo' ? 'activo' : ''}`}>DIC 2023 - ENE 2024 {botonActivo === 'segundo' && <img src='./assets/flecha-img.png' className='flecha'/>}</button>
 
-            <button onClick={() =>{ mostrarImg('https://res.cloudinary.com/dfnton7oq/image/upload/v1714844223/samples/bocata-imgs/mes-1-1_qclsdq.png', 'tercero')}} className={`btn-ganadores-img ${botonActivo === 'tercero' ? 'activo' : ''}`}>OCT - NOV 2023 {botonActivo === 'tercero' && <img src='./flecha-img.png' className='flecha'/>}</button>
+            <button onClick={() =>{ mostrarImg('https://res.cloudinary.com/dfnton7oq/image/upload/v1714844223/samples/bocata-imgs/mes-1-1_qclsdq.png', 'tercero')}} className={`btn-ganadores-img ${botonActivo === 'tercero' ? 'activo' : ''}`}>OCT - NOV 2023 {botonActivo === 'tercero' && <img src='./assets/flecha-img.png' className='flecha'/>}</button>
 
-            <button onClick={() => {mostrarImg('https://res.cloudinary.com/dfnton7oq/image/upload/v1714844224/samples/bocata-imgs/mes-2-1_kuccug.png', 'cuarto')}} className={`btn-ganadores-img ${botonActivo === 'cuarto' ? 'activo' : ''}`}>AGO - SET 2023 {botonActivo === 'cuarto' && <img src='./flecha-img.png' className='flecha'/>}</button>
+            <button onClick={() => {mostrarImg('https://res.cloudinary.com/dfnton7oq/image/upload/v1714844224/samples/bocata-imgs/mes-2-1_kuccug.png', 'cuarto')}} className={`btn-ganadores-img ${botonActivo === 'cuarto' ? 'activo' : ''}`}>AGO - SET 2023 {botonActivo === 'cuarto' && <img src='./assets/flecha-img.png' className='flecha'/>}</button>
             </div>
 
             <div className="cont-img-btns">

@@ -6,10 +6,10 @@ const Error404 = () =>{
             <h1>Error 404</h1>
             <p>La página que está solicitando no existe.</p>
             <p>Vuelva a la página de Inicio aquí</p>
-            <Link to='/Inicio'>
+            <Link to='./'>
             <button className="btn-err-404">Volver al Inicio</button>
             </Link>
-            <img src="./resources/draw-8.svg" alt="" />
+            <img src="./assets/draw-8.svg" alt="" />
         </div>
     )
 }

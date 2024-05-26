@@ -84,7 +84,7 @@ const Contacto = () =>{
         </svg>
             <div className="t-contacto">
                 <h1>Envíenos su mensaje</h1>
-                <img src="./draw-2.svg" alt="draw-2" />
+                <img src="./assets/draw-2.svg" alt="draw-2" />
             </div>
             <div className="cont-form">
                 <form onSubmit={notificacion} method="get">

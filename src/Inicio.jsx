@@ -94,7 +94,7 @@ const Inicio = () => {
         <h1>Estamos ubicados en 8 de Octubre 4130
           esq. Pascual Paladino.
         </h1>
-        <img className='draw-1' src="./draw-1.svg" alt="draw-1-ubicacion" />
+        <img className='draw-1' src="./assets/draw-1.svg" alt="draw-1-ubicacion" />
         <h1 className='h1-esperamos'>¡Te esperamos!, no olvides consultar nuestro <span style={{background:"red", color:"white"}}>MAILING</span></h1>
         <Link to="/mailing#mailing-carou">
           <button className='btn-mailing'>Ver Mailing</button>

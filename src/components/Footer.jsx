@@ -4,22 +4,22 @@ const Footer = () =>{
     return(
     <>
     <footer>
-        <Link to="./Inicio">
-        <img src='./bocata-logo.png' alt="logo-bocata-footer" />
+        <Link to="./">
+        <img src='./assets/bocata-logo.png' alt="logo-bocata-footer" />
         </Link>
         <div className='itemf-3'>
             <ul>
                 <Link to="/Contacto">Contacto</Link>
                 <Link to="/Postulate">Postulacion</Link>
                 <Link to="/Mailing#mailing-carou">Mailing</Link>
-                <Link to="/Inicio#carousel-2">Imbatibles</Link>
-                <Link to="./Inicio#mapa-ubicacion">Como llegar</Link>
+                <Link to="/#carousel-2">Imbatibles</Link>
+                <Link to="./#mapa-ubicacion">Como llegar</Link>
             </ul>
         </div>
         
         <div className='itemf-1'>
         <a>
-        <img className='icon-footer' src="./horario.png" alt="horario-icono-footer" />
+        <img className='icon-footer' src="./assets/horario.png" alt="horario-icono-footer" />
             Horarios
         </a>
             <ul>
@@ -28,7 +28,7 @@ const Footer = () =>{
         </div>
         <div className='itemf-2'>
             <a>
-            <img className='icon-footer' src="./ubicacion.png" alt="ubicacion-icono-footer" />
+            <img className='icon-footer' src="./assets/ubicacion.png" alt="ubicacion-icono-footer" />
                 Ubicacion
             </a>
             <ul>
@@ -48,13 +48,13 @@ const Footer = () =>{
         ¡Pudes también encontrarnos en nuestras Redes Sociales!
     </h1>
     <ul>
-        <li><a> <img src="./ig-icon.png" alt="instagram-icon" />
+        <li><a> <img src="./assets/ig-icon.png" alt="instagram-icon" />
                 Instagram
         </a></li>
-        <li><a> <img src="./fb-icon.png" alt="facebook-icon" />
+        <li><a> <img src="./assets/fb-icon.png" alt="facebook-icon" />
                 Facebook
         </a></li>
-        <li><a> <img src="./tiktok-icon.png" alt="tiktok-icon" />
+        <li><a> <img src="./assets/tiktok-icon.png" alt="tiktok-icon" />
                 Tiktok
         </a></li>
         </ul>
