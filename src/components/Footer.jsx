@@ -33,7 +33,7 @@ const Footer = () =>{
             </a>
             <ul>
                 <li>Av. 8 de octubre 4130, esq. Pascual Paladino.</li>
-                <a><img src="./tel-icon.png" alt="tel-icon" />
+                <a><img src="./assets/tel-icon.png" alt="tel-icon" />
                 Tel. 2509 7777
                 </a>
             </ul>
